@@ -20,3 +20,8 @@ Data/ML
 - StdLib
 - tf-idf K Means Cluster
 - NLP
+
+Remember
+Design sprint
+Agile
+Six Sigma
