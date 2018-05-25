@@ -4,6 +4,7 @@ UWaterloo's EngHack18' Project to get you hired
 
 Front End Libraries/Resources:
 - React
+- JQuery
 - Bootstrap
 - Font Awesome
 - Google Fonts
