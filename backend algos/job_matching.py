@@ -1,5 +1,4 @@
 from indicoio import *
-import math
 
 config.api_key = '27df1eee04c5b65fb3113e9458d1d701'
 
