@@ -13,13 +13,8 @@ var resumeJson, resumeText;
 app.use(express.static('FrontEnd'));
 app.use(helmet());
 
-/////////////////////////////
-app.get('/', (req, res) => {
-    res.send('done');
-});
-
 ////////////////////////////
-app.get('/jobalytics', (req, res) => {
+app.get('/', (req, res) => {
     res.sendFile(__dirname + '/frontend/index.html');
 });
 

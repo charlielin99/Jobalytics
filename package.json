@@ -20,6 +20,7 @@
     "ejs": "^2.6.1",
     "express": "^4.16.3",
     "formidable": "^1.2.1",
+    "fs": "0.0.1-security",
     "helmet": "^3.12.1",
     "python-shell": "^0.5.0",
     "request": "^2.87.0",
