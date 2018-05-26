@@ -1,0 +1,22 @@
+{
+  "name": "jobalytics",
+  "version": "1.0.0",
+  "description": "EngHack18' Project to get you hired",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlielin99/Jobalytics.git"
+  },
+  "author": "Charlie Lin Brad Huang Calvin Woo Nick Tommasini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlielin99/Jobalytics/issues"
+  },
+  "homepage": "https://github.com/charlielin99/Jobalytics#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
