@@ -1,6 +1,6 @@
-import indicoio, sys
+from indicoio import *
 
-indicoio.config.api_key = '27df1eee04c5b65fb3113e9458d1d701'
+config.api_key = '27df1eee04c5b65fb3113e9458d1d701'
 
 '''
 
@@ -12,22 +12,22 @@ The flow is:
 3. algorithm creates a dictionary linking keywords (str) to relative scores (float)
 4. call to direct_matcher() to correct direct matches in resume 
 5. updates dictionary (skills_dictionary) to account for direct matches (review direct_matcher())
-6. prints completed skills dictionary (dict)
+6. generates a skills dictionary with keys being the skills relevant to job and values being your relevance to them
+7. returns a list of dictionaries where the 1st element is good points for the resume and 2nd element is room for improvement
 
 '''
-resume = (sys.stdin).readline()
-job_desc = (sys.stdin).readline()
-shit_words = ['experience','Experienced','Proficient','engineering','efficient','Qualifications','Engineering','courses','work','Summary','University','university','University of Waterloo']
+
 
 def analyzer(job_desc):
-	shordy = indicoio.keywords(job_desc, threshold = 0.15)
+	shordy = keywords(job_desc, threshold = 0.15)
 	return [ a for a in shordy.keys() ]
 
+
 def summarizer(resume):
-	return indicoio.summarization(resume) 
+	return summarization(resume) 
 
 def job_matcher(job_desc, resume):
-	return indicoio.relevance(list(summarizer(resume)), analyzer(job_desc))
+	return relevance(list(summarizer(resume)), analyzer(job_desc))
 
 def direct_matcher(resume):
 	direct_dictionary = {}
@@ -50,7 +50,12 @@ def skills_matcher(job_desc, resume):
 	direct_dictionary_call = direct_matcher(resume)
 	for r in direct_dictionary_call.keys():
 		skills_dictionary[r] = round(float(direct_dictionary_call[r]), 1)
-	print(skills_dictionary)
+	good_dict = {i:skills_dictionary[i] for i in skills_dictionary.keys() if skills_dictionary[i] > 0.5}
+	bad_dict = {i:skills_dictionary[i] for i in skills_dictionary.keys() if skills_dictionary[i] < 0.5}
+	return [good_dict,bad_dict]
 
 if __name__ == '__main__':
 	skills_matcher(job_desc, resume)
+
+
+
