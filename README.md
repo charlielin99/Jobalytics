@@ -4,6 +4,7 @@ UWaterloo's EngHack18' Project to get you hired
 
 Front End Libraries/Resources:
 - React
+- JQuery
 - Bootstrap
 - Font Awesome
 - Google Fonts
@@ -20,3 +21,8 @@ Data/ML
 - StdLib
 - tf-idf K Means Cluster
 - NLP
+
+Remember
+Design sprint
+Agile
+Six Sigma
