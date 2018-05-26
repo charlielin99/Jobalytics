@@ -1,5 +1,4 @@
 body {
-  margin: 40px 0;
   font-family: "Raleway";
   font-size: 14px;
   font-weight: 500;
@@ -24,7 +23,7 @@ p {
 }
 
 h1 + p, p + p {
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .button.transparent {
@@ -135,7 +134,7 @@ h1 + p, p + p {
 
 .card-info h1 {
   font-family: "Playfair Display";
-  font-size: 36px;
+  font-size: 25px;
   font-weight: 700;
   text-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px;
 }
