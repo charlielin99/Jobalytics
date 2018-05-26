@@ -1,6 +1,7 @@
 # Jobalytics
 UWaterloo's EngHack18' Project to get you hired
 
+$ pip install indicoio
 
 Front End Libraries/Resources:
 - React
