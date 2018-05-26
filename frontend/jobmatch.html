@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 	  <meta charset="UTF-8">
-  <title>Your Job Match | Jobalytics&trade;</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-
+    <title>Your Job Match | Jobalytics&trade;</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="js/jobmatch.js"></script>
 	  <style>
 	  .fade-in-down {
   animation: fade-in-down 2s ease infinite;
@@ -112,7 +112,7 @@ button:active{
 	</div>
 	<div id="midcolumn" class="col-md-4 fade-in-down">
 		<textarea rows="5" id="inputsection"></textarea>
-		<button id="check">Check my potential match.</button>
+		<button onclick="populateRes();" id="check">Check my potential match.</button>
 		<textarea readonly id="results" rows="10"></textarea>
     <form action='/home' method="POST">
 		  <button id="return">Return</button>
