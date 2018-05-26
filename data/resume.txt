@@ -1,55 +1,196 @@
 
+DANE	SISINNI
 
-Technical System Analyst at RBC Wealth Management 
-bradhuang1999@yahoo.com
+ dsisinni@uwo.ca  danesisinni.com  (289)-668-3263  dfsisinni
 
-Summary
+EDUCATION
 
-Developer, Web Designer, Hobby Astronomer.
+Ivey	School	of	Business
 
-Experience
+Honours Business Administration 2020
 
-Technical System Analyst at RBC 
-May 2018  -  Present
+Western	University
 
-- Maintain and improve ClientView, a Customer Relationship Management program for internal 
-financial and business advisors by developing a new version of database 
-- Consult with financial advisor clients regarding the user experience and functionality of the 
-program
+Bachelor of Engineering Software Engineering 2020
 
-Web Developer and Webmaster 
-May 2017  -  September 2017 (5 months)
+SE2205 - Algorithms and Data Structures: 100% 
+SE2250 - Software Construction: 99% 
+Dean's Honour List - 89% Cumulative Average
 
-- Revamped the homework website for the RHHS math department using HTML5, CSS, and 
-WordPress 
-- In later cycles of development, developed an easy-to-use backend maintenance system for the 
-website using PHP to streamline the process of announcements and updates for users 
-- Consulted on the designs of teachers’ own homework websites
+Ridley	College
 
-Web Developer 
-August 2016  -  September 2016 (2 months)
+OSSD & IB Certi cates High School 2015
 
-- Worked in a team to test and implement webERP, a backend management/inventory software 
-- Redesigned and translated the company's website to promote viewer traffic and sales 
-- Built advertising website for the new logistics/transportation department using HTML5, CSS, and 
-WordPress
+Graduated with highest combined grade 11/12 average of 96%
 
-Education
+ACTIVITIES
 
-University of Waterloo 
-Bachelor's degree, Honours Computer Science with Business Option, 2017 - 2022 
-Richmond Hill High School 
-High School - Enriched and Advanced Placement(AP) Program, 2014 - 2017 
-Unionville High School 
-High School, 2013 - 2014
+Mustang	Capital, 
+Quantitative	Trading	Analyst 
+Western	ACM	-	Programming	Team
 
-Honors and Awards
+Oct	2017	Current
 
-Term Dean's Honours List for Fall 2017, University of Waterloo President Scholarship, Honours List, 
-CEMC Euclid Mathematics Competition Certificate of Distinction, "The Most Startup-Viable Hack" of 
-HackNYU, Faculty of Mathematics Entrance Scholarship
+Sep	2016	-	Current
 
-Technical System Analyst at RBC Wealth Management 
-bradhuang1999@yahoo.com 
-Contact Brad on LinkedIn
+Competed at the East Central North America regional event 
+on Oct 28/29 - placed 2nd at Western
 
+TEDxLondonON, VP	Tech
+
+Sep	2017	-	Current
+
+Technology lead for the TEDxLondonON organizing team
+
+Western	Hack	Team, VP	Events
+
+Aug	2016	-	Apr	2017
+
+Co-founded a coding bootcamp to teach over 150 students 
+Taught coding from scratch at weekly workshops 
+Topics included Java Fundamentals, Algorithms & Data 
+Structures, Web Development (Meteor) & Android/iOS
+
+PROJECTS
+
+Calewiz
+
+May	2017	-	Current
+
+Created a smart, automated employee scheduling solution for
+
+small businesses using Java Spring
+
+Reduced schedule creation time from 12 hours to 30 mins
+
+Sanus
+
+Sep	2016
+
+Sanus is your personalized digital medical portfolio
+
+It allows users to keep track of allergies and medications and
+
+automatically noti es when a con ict arises
+
+Pro les can be easily shared with physicians (QR Code)
+
+Developed with Meteor JS at Hack the North 2016
+
+Connection	Established
+
+Apr	2016
+
+Provides connectivity to users in developing countries lacking
+
+reliable 3G coverage or a smartphone
+
+Created a SMS/Voice personal assistant for users with only an
+
+EDGE connection and no smartphone
+
+Traf c is routed through Java servlets and mapped to the
+
+most relevant data source using IBM Watson's API
+
+VEX	Robotics	-	Team	1509
+
+Sep	2013	-	Apr	2015
+
+Ranked 2nd in Canada, 13th in World for Programming Skills 
+Math Division Semi nalists at 2015 World Championship
+
+EMPLOYMENT
+
+Wealthsimple, 
+Software	Engineer	-	Brokerage	Team
+
+Toronto,	ON
+
+May	2017	-	Aug 
+2017
+
+Core developer for the new automated, paperless brokerage 
+account opening API that reduced account opening times from 
+48 hours to mere seconds 
+Primarily developed REST APIs in Java with Rest Easy 
+Heavy emphasis on development and migration from Oracle 
+PL/SQL (old brokerage operations) to PostgreSQL
+
+Created critical features on the internal web tooling for 
+brokerage operations staff with Angular JS and Bootstrap 
+Relied on Excel and Periscope modelling for decision making
+
+KnowRoaming, Software	Engineer May	2016	-	Aug	2016
+
+Toronto,	ON
+
+Developed a web portal from the ground up to manage all IOT
+
+Connect devices
+
+Worked with the CTO to deliver the IOT Connect platform
+
+Pitched to clients in sales meetings to help secure and maintain
+
+lucrative contracts
+
+Backend: Java Spring, Frontend: Angular JS + Bootstrap
+
+Evertz	Microsystems	Ltd., 
+Software	Developer
+
+Markham,	ON
+
+Jun	2014	-	Sep 
+2014
+
+Created Bash scripts to troubleshoot customer issues 
+and emulate customer usage of software 
+Devised solutions and performed bug xes in C++
+
+AWARDS
+
+Engineering	Showcase	-	Top	5	Projects, 
+Western	University
+
+Design Project: Connection Established
+
+Apr 
+2016
+
+Schulich	Leader, Schulich	Foundation
+
+May	2015
+
+National Scholarship awarded to the next generation of STEM
+
+innovators valued at $80,000
+
+Chancellor's	Scholarship, Queen's	University
+
+May	2015
+
+$36,000 for study at Queen’s University (declined award)
+
+Governor	General's	Medal, Ridley	College
+
+May	2015
+
+Awarded to the student with the highest average
+
+ACT	Score	-	34/36
+
+Jan	2015
+
+99th percentile - Math: 36/36, Science: 35/36
+
+SKILLS/INTERESTS
+
+TECHNICAL	SKILLS:	Java, C#, C/C++, HTML/CSS, PHP, SQL, R,
+
+Spring, Rest Easy, Vaadin, MongoDB, Angular JS, React, Meteor 
+INTERESTS:	Skiing, Soccer, Canoeing, Camping, Ping Pong 
+OTHER	ACTIVITIES:	Investment Club - Researcher,
+
+Algo Trading Club - Platform Developer, U10 Soccer Coach
