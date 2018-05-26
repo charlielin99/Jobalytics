@@ -34,7 +34,7 @@ def skills_matcher(job_desc, resume):
 	skills_dictionary = {}
 	i=0
 	while i < len(list_of_keywords):
-		skills_dictionary[(list_of_keywords[i])] = 100 * round(probabilities[i], 1)
+		skills_dictionary[(list_of_keywords[i])] = 100 * round(((probabilities[i]) ** 2), 1)
 		i += 1
 	direct_dictionary_call = direct_matcher(resume)
 	for r in direct_dictionary_call.keys():
@@ -42,7 +42,7 @@ def skills_matcher(job_desc, resume):
 	print(skills_dictionary)
 
 if __name__ == '__main__':
-	skills_matcher()
+	skills_matcher(job_desc, resume)
 
 
 
