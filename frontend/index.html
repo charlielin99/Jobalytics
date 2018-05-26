@@ -99,9 +99,9 @@ input[type=text]:focus {
 		<img src="img/wtf.png">
     <h1>JOBALYTICS&trade;</h1>
 	</div>
-	<div id="uploadArea">
-		<form action="upload.js" method="POST">
- 		 <input type="file" multiple>
+	<div id="uploadArea">  
+		<form action="/jobalytics" enctype="multipart/form-data" method="post">
+ 		 <input type="file" name="upload" multiple>
  		 <p>Drag your resume here or click in this area.</p>
  		 <p id="lol">Upload your resume in PDF Format. Maximum size is 25MB.</p>
 

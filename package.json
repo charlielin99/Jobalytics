@@ -19,6 +19,9 @@
   "dependencies": {
     "ejs": "^2.6.1",
     "express": "^4.16.3",
+    "formidable": "^1.2.1",
+    "helmet": "^3.12.1",
+    "python-shell": "^0.5.0",
     "request": "^2.87.0",
     "unfluff": "^3.0.1"
   }
