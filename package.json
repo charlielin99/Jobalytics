@@ -19,6 +19,7 @@
   "dependencies": {
     "ejs": "^2.6.1",
     "express": "^4.16.3",
-    "request": "^2.87.0"
+    "request": "^2.87.0",
+    "unfluff": "^3.0.1"
   }
 }
