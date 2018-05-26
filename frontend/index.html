@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Welcome | Jobalytics&trade;</title>
+
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/upload.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+	form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -70px;
+  margin-left: -250px;
+  width: 500px;
+  height: 200px;
+  border: 2px dashed #fff;
+}
+h1{
+  font-size: 60px;
+    background: -webkit-linear-gradient(135deg, #FDC76A, #AD226D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+form p{
+  width: 100%;
+  text-align: center;
+  line-height: 180px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: large;
+}
+#lol{
+	width: 100%;
+  text-align: center;
+  line-height: 40px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: large;
+}
+form input{
+  position: absolute;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+}
+form button{
+  margin: 0;
+  color: #fff;
+  background: #DD2E64;
+  border: none;
+  width: 508px;
+  height: 35px;
+  margin-top: -100px;
+  margin-left: -4px;
+  border-radius: 4px;
+  border-bottom: 4px solid #AE2167;
+  transition: all .2s ease;
+  outline: none;
+}
+form button:hover{
+  background: #AE2167;
+  color: #fff;
+}
+form button:active{
+  border:0;
+}
+input[type=text] {
+	position:absolute;
+	top:33%;
+	left:33.7%;
+    width: 200px;
+    height:40px;
+    background-image: url("img/linkedin.png");
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border: 2px solid #EB555D;
+    border-radius: 4px;
+    font-size: small;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width:500px;
+}
+	</style>
+</head>
+<body>
+	<div id="logo" class="text-center">
+		<img src="img/wtf.png">
+    <h1>JOBALYTICS&trade;</h1>
+	</div>
+	<div id="uploadArea">
+		<form action="upload.php" method="POST">
+ 		 <input type="file" multiple>
+ 		 <p>Drag your resume here or click in this area.</p>
+ 		 <p id="lol">Upload your resume in PDF Format. Maximum size is 25MB.</p>
+ 		 <button type="submit">Continue to Jobalytics&trade;</button>
+ 		   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+ 		 				<script>
+		$(document).ready(function(){
+  $('form input').change(function () {
+    $('form p').text("File selected.");
+  });
+});
+	</script>
+		</form>
+		<p>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</body>
+</html>
