@@ -32,16 +32,23 @@ app.post('/jobalytics', (req, res) => {
             resumeJson = JSON.parse(message);
             resumeText = resumeJson['text'];
             console.log(resumeText);
-            resumeAuthor = resumeText.split('\n')[1] || 'YOU';
+            resumeAuthor = resumeText.split('\n')[1] || resumeText.split('\n')[0] || 'YOU';
             console.log(resumeAuthor);
         });
     });
-    form.on('end', (name, file) => {
-        res.sendFile(__dirname + '/frontend/main.html');
-    });
+    form.on('end', (name, file) => res.sendFile(__dirname + '/frontend/main.html'));
 });
+
+app.post('/jobmatch', (req, res) => res.sendFile(__dirname + '/frontend/jobmatch.html'));
+app.post('/accomplishments', (req, res) => res.sendFile(__dirname + '/frontend/pros.html'));
+app.post('/radials', (req, res) => res.sendFile(__dirname + '/frontend/radials.html'));
+app.post('/improveyourself', (req, res) => res.sendFile(__dirname + '/frontend/cons.html'));
+app.post('/personas', (req, res) => res.sendFile(__dirname + '/frontend/personas.html'));
+app.post('/keywords', (req, res) => res.sendFile(__dirname + '/frontend/frequent.html'));
 
 ////////////////////////////
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}/`);
 });
+
+// $.post('/jobmatch');

@@ -24,7 +24,12 @@ p {
 }
 
 h1 + p, p + p {
-  margin-top: 10px;
+  margin-top: 40px;
+}
+
+.button.transparent {
+  background-color: transparent; 
+  border-color: transparent;
 }
 
 .container {
