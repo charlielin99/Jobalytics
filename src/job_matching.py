@@ -1,6 +1,6 @@
-from indicoio import *
+import indicoio, sys
 
-config.api_key = '27df1eee04c5b65fb3113e9458d1d701'
+indicoio.config.api_key = '27df1eee04c5b65fb3113e9458d1d701'
 
 '''
 
@@ -15,19 +15,19 @@ The flow is:
 6. prints completed skills dictionary (dict)
 
 '''
+resume = (sys.stdin).readline()
+job_desc = (sys.stdin).readline()
+shit_words = ['experience','Experienced','Proficient','engineering','efficient','Qualifications','Engineering','courses','work','Summary','University','university','University of Waterloo']
 
-job_desc = ""
-resume = ""
 def analyzer(job_desc):
-	shordy = keywords(job_desc, threshold = 0.15)
+	shordy = indicoio.keywords(job_desc, threshold = 0.15)
 	return [ a for a in shordy.keys() ]
 
-
 def summarizer(resume):
-	return summarization(resume) 
+	return indicoio.summarization(resume) 
 
 def job_matcher(job_desc, resume):
-	return relevance(list(summarizer(resume)), analyzer(job_desc))
+	return indicoio.relevance(list(summarizer(resume)), analyzer(job_desc))
 
 def direct_matcher(resume):
 	direct_dictionary = {}
@@ -54,6 +54,3 @@ def skills_matcher(job_desc, resume):
 
 if __name__ == '__main__':
 	skills_matcher(job_desc, resume)
-
-
-
