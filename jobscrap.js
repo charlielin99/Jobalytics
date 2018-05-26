@@ -16,7 +16,19 @@ app.get("/test", function(req,res){
 	//console.log(data.text)
 });
 
+//LINKEDIN SCRAPPING
+/*
+// require pupetter
+async function getPic() {
+  const browser = await puppeteer.launch();
+  const page = await browser.newPage();
+  await page.goto('https://ca.linkedin.com/in/charlielin10');
+  await page.screenshot({path: 'linkedin.jpg'});
+  await browser.close();
+}
 
+getPic();
+*/
 
 
 
