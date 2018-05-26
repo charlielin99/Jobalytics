@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+	  <meta charset="UTF-8">
   <title>Your Job Match | Jobalytics&trade;</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -16,28 +16,23 @@ body {
   background:         linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* W3C */
 }
 h1{
-	margin-top:70px;
 	font-size:20px;
-	margin-left:630px;
-	margin-bottom:10px;
 	color:white;
+	text-align:center;
 }
 textarea{
 	resize:none;
-	width:555px;
-	margin-left:480px;
-	margin-right:auto;
+	width:100%;
 	border: 2px solid #BF1F64;
 	border-radius:4px;
 	    background-color: #f8f8f8;
 	        font-size: 16px;
 }
 button{
-  margin: 0;
   color: #fff;
   background: #DD2E64;
   border: none;
-  width: 563px;
+  width: 100%;
   border-radius: 4px;
   border-bottom: 4px solid #AE2167;
   transition: all .2s ease;
@@ -45,14 +40,12 @@ button{
 }
 #check
 {
-	  margin-top: 5px;
-  margin-left: 480px;
+	margin-bottom: 5px;
     height: 35px;
     font-size:medium;
 }
 #returnbutton{
   margin-top: 5px;
-  margin-left: 480px;
   height:50px;
   font-size:medium;
 }
@@ -70,33 +63,39 @@ button:active{
 </style>
 </head>
 <body>
-<div id="logo" class="text-center" style="margin-left:480px; margin-bottom:-30px">
-  <img src="img/wtf3.png">
-</div>
-<div class="container-fluid" id="row">
-	<div id="sideCard" class="col-md-6">
-		<div class="card" style="width: 18rem;">
-  <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
+	<div id="logo" class="text-center">
+		<img src="img/wtf3.png" style="display:block; margin-top: 30px; margin-left:auto; margin-right:auto">
+				<h1>Enter your job description here.</h1>
 	</div>
-<div id="textinput" class="col-md-6">
-	<h1 id="lol2">Enter your job description here.</h1>
-	<textarea rows="5" id="inputsection"></textarea>
-	<button id="check">Check my potential match.</button>
-		<textarea readonly id="resultsbox" rows="10" class="text-center"></textarea>
-			<button id="returnbutton" onclick="location.href='main.html';return false;">Return.</button>
+	<div class="container-fluid">
+		<div class="row">
+	<div id="leftcolumn" class="col-md-4">
+				<div class="card" style="width: 100%; 	border: 2px solid #FBB959;
+	border-radius:4px;">
+  <img class="card-img-top" src="img/resume.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h4 class="card-title">Why is this important?</h4>
+    <p class="card-text">You should modify your resume appropriately for each role you apply to. Make sure you list specific, relevant experiences and change your skills or projects accordingly.</p>
+  </div>
+	</div>
+	</div>
+	<div id="midcolumn" class="col-md-4">
+		<textarea rows="5" id="inputsection"></textarea>
+		<button id="check">Check my potential match.</button>
+		<textarea readonly id="results" rows="10"></textarea>
+		<button id="return" onclick="location.href='main.html';return false;">Return.</button>
+	</div>
+	<div id="rightcolumn" class="col-md-4">
+						<div class="card" style="width: 100%; 	border: 2px solid #FBB959;
+	border-radius:4px;">
+  <img class="card-img-top" src="img/wat.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h4 class="card-title">How does it work?</h4>
+    <p class="card-text">Our algorithms use Indico-supported algorithms to determine your fit with the provided job description of your choice. Then, through Wolfram Alpha, we prepare your results visually.</p>
+  </div>
+	</div>
+	</div>
 </div>
-</div>
-<div id="results">
-
-</div>
-<div id="return" class="text-center">
-
 </div>
 </body>
 </html>
