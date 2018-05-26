@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	  <meta charset="UTF-8">
-  <title>Radials | Jobalytics&trade;</title>
+  <title>Frequently Used Words | Jobalytics&trade;</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 	  <style>
@@ -59,6 +59,46 @@ button:hover{
 button:active{
   border:0;
 }
+.rotating1{
+    animation: rotate-in-down-left 2s ease infinite;
+    	animation-iteration-count: 1;	
+}
+.rotating2{
+	          animation: rotate-in-up-left 2s ease infinite;
+	          animation-iteration-count: 1;
+}
+@keyframes rotate-in-down-left {
+  0% {
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    opacity: 1;
+  }
+}
+@keyframes rotate-in-up-left {
+  0% {
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    opacity: 1;
+  }
+}
 </style>
 </head>
 <body>
@@ -69,12 +109,12 @@ button:active{
 	<div class="container-fluid">
 		<div class="row">
 	<div id="leftcolumn" class="col-md-4">
-				<div class="card" style="width: 100%; 	border: 2px solid #FBB959;
+				<div class="card rotating1" style="width: 100%; 	border: 2px solid #FBB959;
 	border-radius:4px;">
-  <img class="card-img-top" src="img/Energy.png" alt="Card image cap">
+  <img class="card-img-top" src="img/word cloud.png" alt="Card image cap">
   <div class="card-body">
     <h4 class="card-title">Why is this important?</h4>
-    <p class="card-text">Your Myers Briggs&reg; results are extremely helpful in determining well-suited future careers that may be of interest to you. The test indicates your extra- or introversion, learning preferenes, decision preferences, and life perspectives.</p>
+    <p class="card-text">It's important to drive home your greatest strengths and most relevant experiences, but it's equally important to ensure that you aren't repeating yourself or beating the recruiter over the head with the same info. Make wise decisions with this info.</p>
   </div>
 	</div>
 	</div>
@@ -83,12 +123,12 @@ button:active{
 		<button id="return" onclick="location.href='main.html';return false;">Return.</button>
 	</div>
 	<div id="rightcolumn" class="col-md-4">
-						<div class="card" style="width: 100%; 	border: 2px solid #FBB959;
+						<div class="card rotating2" style="width: 100%; 	border: 2px solid #FBB959;
 	border-radius:4px;">
-  <img class="card-img-top" src="img/Energy2.png" alt="Card image cap">
+  <img class="card-img-top" src="img/dictionary.jpeg" alt="Card image cap">
   <div class="card-body">
     <h4 class="card-title">How does it work?</h4>
-    <p class="card-text">Our algorithm uses natural language processing to discover hints about your Myers Briggs&reg; results from prior experiences, interests, skills, and typing mannerisms, then uses Wolfram Alpha to develop a radial chart.</p>
+    <p class="card-text">Our algorithm creates a dictionary that totals up the instances of each word in your resume, then eliminates words of little interest to present to you only the most important repeated word instances in your document.</p>
   </div>
 	</div>
 	</div>

@@ -59,6 +59,46 @@ button:hover{
 button:active{
   border:0;
 }
+.rotating1{
+    animation: rotate-in-down-left 2s ease infinite;
+    	animation-iteration-count: 1;	
+}
+.rotating2{
+	          animation: rotate-in-up-left 2s ease infinite;
+	          animation-iteration-count: 1;
+}
+@keyframes rotate-in-down-left {
+  0% {
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    opacity: 1;
+  }
+}
+@keyframes rotate-in-up-left {
+  0% {
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    opacity: 1;
+  }
+}
 </style>
 </head>
 <body>
@@ -69,12 +109,12 @@ button:active{
 	<div class="container-fluid">
 		<div class="row">
 	<div id="leftcolumn" class="col-md-4">
-				<div class="card" style="width: 100%; 	border: 2px solid #FBB959;
+				<div class="card rotating1" style="width: 100%; 	border: 2px solid #FBB959;
 	border-radius:4px;">
-  <img class="card-img-top" src="img/Energy.png" alt="Card image cap">
+  <img class="card-img-top" src="img/teamwork.jpg" alt="Card image cap">
   <div class="card-body">
     <h4 class="card-title">Why is this important?</h4>
-    <p class="card-text">Tied to your Myers Briggs&reg; results, your persona is one of 16 potential team roles that you fulfill. Whether you are a mediator, arbitrator, debator, or consul, you can effectively take on an important role in a team environment - and be flexible.</p>
+    <p class="card-text">Tied to your Myers Briggs&reg; results, your persona is one of 16 potential team roles that you fulfill. Whether you are a mediator, arbitrator, debator, or consul, you can effectively take on an important role in a team environment.</p>
   </div>
 	</div>
 	</div>
@@ -83,9 +123,9 @@ button:active{
 		<button id="return" onclick="location.href='main.html';return false;">Return.</button>
 	</div>
 	<div id="rightcolumn" class="col-md-4">
-						<div class="card" style="width: 100%; 	border: 2px solid #FBB959;
+						<div class="card rotating2" style="width: 100%; 	border: 2px solid #FBB959;
 	border-radius:4px;">
-  <img class="card-img-top" src="img/Energy2.png" alt="Card image cap">
+  <img class="card-img-top" src="img/teamwork2.jpg" alt="Card image cap">
   <div class="card-body">
     <h4 class="card-title">How does it work?</h4>
     <p class="card-text">Our algorithm uses natural language processing to discover hints about your Myers Briggs&reg; results from prior experiences, interests, skills, and typing mannerisms, then produces your persona result.</p>

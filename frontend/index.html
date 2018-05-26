@@ -33,6 +33,15 @@ form p{
   font-family: Roboto;
   font-size: large;
 }
+h5{
+    width: 100%;
+  text-align: center;
+  line-height: 40px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: medium;
+  font-weight: normal; 
+}
 #lol{
 	width: 100%;
   text-align: center;
@@ -101,11 +110,11 @@ input[type=text]:focus {
 	</div>
 	<div id="uploadArea">  
 		<form action="/jobalytics" enctype="multipart/form-data" method="post">
- 		 <input type="file" name="upload" multiple>
- 		 <p>Drag your resume here or click in this area.</p>
- 		 <p id="lol">Upload your resume in PDF Format. Maximum size is 25MB.</p>
+ 		 <input type="file" name="upload" accept="application/pdf">
+ 		 <p id="wow">Drag your resume here or click in this area.</p>
+ 		 <h5>Upload your resume in PDF Format. Maximum size is 25MB.</h5>
 
-     <a href="main.html"><button type="submit">Get My Results &nbsp; - &nbsp; Powered by Jobalytics&trade;</button></a>
+     <a href="main.html"><button type="submit">Get My Results &nbsp; — &nbsp; Powered by Jobalytics&trade;</button></a>
 
  		 
  		   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>

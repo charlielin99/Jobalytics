@@ -59,31 +59,79 @@ button:hover{
 button:active{
   border:0;
 }
+.rotating1{
+    animation: rotate-in-down-left 2s ease infinite;
+    	animation-iteration-count: 1;	
+}
+.rotating2{
+	          animation: rotate-in-up-left 2s ease infinite;
+	          animation-iteration-count: 1;
+}
+@keyframes rotate-in-down-left {
+  0% {
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    opacity: 1;
+  }
+}
+@keyframes rotate-in-up-left {
+  0% {
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    opacity: 1;
+  }
+}
+.xD{
+	animation: grow 2s ease infinite;
+	animation-iteration-count: 1;
+}
+@keyframes grow {
+  from { transform: scale(0); }
+  to { transform: scale(1); }
+}
 </style>
 </head>
 <body>
 	<div id="logo" class="text-center">
 		<img src="img/Untitled.png" style="display:block; margin-top: 30px; margin-left:auto; margin-right:auto">
-				<h1>Here are your results.</h1>
+				<h1 class="xD">Here are your results.</h1>
 	</div>
 	<div class="container-fluid">
 		<div class="row">
 	<div id="leftcolumn" class="col-md-4">
-				<div class="card" style="width: 100%; 	border: 2px solid #FBB959;
+				<div class="card rotating1" style="width: 100%; 	border: 2px solid #FBB959;
 	border-radius:4px;">
   <img class="card-img-top" src="img/Energy.png" alt="Card image cap">
   <div class="card-body">
     <h4 class="card-title">Why is this important?</h4>
-    <p class="card-text">Your Myers Briggs&reg; results are extremely helpful in determining well-suited future careers that may be of interest to you. The test indicates your extra- or introversion, learning preferenes, decision preferences, and life perspectives.</p>
+    <p class="card-text">Your Myers Briggs&reg; results are extremely helpful in determining well-suited future careers that may be of interest to you. The test indicates your extra- or introversion, learning preferences, decision preferences, and life perspectives.</p>
   </div>
 	</div>
 	</div>
 	<div id="midcolumn" class="col-md-4">
-		<textarea readonly id="results" rows="20"></textarea>
-		<button id="return" onclick="location.href='main.html';return false;">Return.</button>
+		<iframe class="xD" width=100% height=400px src="https://www.wolframcloud.com/objects/b01cdcc3-7609-48d1-a860-271afdf176d7"></iframe>
+		<button class="xD" id="return" onclick="location.href='main.html';return false;">Return.</button>
 	</div>
 	<div id="rightcolumn" class="col-md-4">
-						<div class="card" style="width: 100%; 	border: 2px solid #FBB959;
+						<div class="card rotating2" style="width: 100%; 	border: 2px solid #FBB959;
 	border-radius:4px;">
   <img class="card-img-top" src="img/Energy2.png" alt="Card image cap">
   <div class="card-body">
