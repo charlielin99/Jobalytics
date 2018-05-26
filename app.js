@@ -6,9 +6,9 @@ var express = require('express'),
     PythonShell = require('python-shell');
 
 var app = express(),
-    pyshell = new PythonShell('src/myResume.py');
+    pyshell;
 
-var resumeJson, resumeText;
+var resumeJson, resumeText, resumeAuthor;
 
 app.use(express.static('FrontEnd'));
 app.use(helmet());
@@ -26,11 +26,14 @@ app.post('/jobalytics', (req, res) => {
     });
     form.on('file', async (name, file) => {
         console.log('uploads/' + file.name);
+        pyshell = new PythonShell('src/myResume.py')
         pyshell.send('uploads/' + file.name);
         pyshell.on('message', function (message) {
             resumeJson = JSON.parse(message);
             resumeText = resumeJson['text'];
             console.log(resumeText);
+            resumeAuthor = resumeText.split('\n')[1] || 'YOU';
+            console.log(resumeAuthor);
         });
     });
     form.on('end', (name, file) => {
