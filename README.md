@@ -1,29 +1,5 @@
-# Jobalytics
-UWaterloo's EngHack18' Project to get you hired
+<h1>Jobalytics: <em>Using Machine Learning to Perfect Your Resume</em></h1>
 
-$ pip install indicoio
+[UWaterloo ENGHACK18](http://enghack.uwaterloo.ca/) project developed in 24 hours, focusing on using NLP, Word2Vec, & Clustering via unsupervised neural network APIs to build a tailored resume screening application. Capable of comparing any online job description with your resume, performing a 6 progned analysis visualized with Wolfram One's cloud computation platform. 
 
-Front End Libraries/Resources:
-- React
-- JQuery
-- Bootstrap
-- Font Awesome
-- Google Fonts
-- UnSplash.com
-
-Back End Libraries/Resources:
-- Node.JS
-- Express.JS
-- .tech URL
-
-Data/ML
-- Indico
-- Wolfram One
-- StdLib
-- tf-idf K Means Cluster
-- NLP
-
-Remember
-Design sprint
-Agile
-Six Sigma
+This project won the award for "Best Use of Machine Learning" as awarded by [Indico](https://indico.io/).
