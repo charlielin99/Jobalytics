@@ -62,8 +62,10 @@ def skills_matcher(job_desc, resume):
 	text_good = open("frontend/good_stuff.txt","w")
 	text_bad = open("frontend/bad_stuff.txt","w")
 	for i in good_dict.keys():
+		print("You are good at: " + str(i) + "! You scored a " + str(good_dict[i]) + "% match!")
 		text_good.write("You are good at: " + str(i) + "! You scored a " + str(good_dict[i]) + "% match!")
 	for j in bad_dict.keys():
+		print("You are bad at: " + str(j) + ". You scored a " + str(bad_dict[j]) + "% match. ")
 		text_bad.write("You are bad at: " + str(j) + ". You scored a " + str(bad_dict[j]) + "% match. ")
 	return [good_dict,bad_dict]
 

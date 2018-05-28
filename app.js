@@ -22,6 +22,10 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/frontend/index.html');
 });
 
+app.get('/hi', (req, res) =>{ //testing
+    res.render('jobmatch.ejs');
+});
+
 app.post('/jobalytics', (req, res) => {
     var form = new formidable.IncomingForm();
     form.parse(req);
@@ -39,10 +43,10 @@ app.post('/jobalytics', (req, res) => {
                 if(err) {
                     return console.log(err);
                 }
-                console.log("The file was saved!");
+                console.log("Resume parse was successful!");
             });
         });
-        console.log(resumeAuthor);
+        console.log(resumeAuthor); //use case undetermined
     });
     form.on('end', (name, file) => res.sendFile(__dirname + '/frontend/main.html'));
 });
