@@ -1,141 +1,118 @@
 
-Lawrence Pang
+ 
 
- lypang@edu.uwaterloo.ca |  lpang36 |  lawrencepang.herokuapp.com |  lawrencepang36
+MARK HUANG 
 
-SKILLS
+Searching for an internship performing media, design or marketing related work 
 
-Machine Learning 
-Data Science 
-Web Development 
-Algorithms and Data Structures 
-Object-Oriented Programming 
-Image Processing
+199 Colesbrook Road  
+Richmond Hill  
+647-606-9418  
+markhuang1999@gmail.com  
+linkedin.com/in/markhjy 
 
-TECHNOLOGIES
+EXPERIENCE 
 
-GENERAL
+University of Waterloo Varsity, ​Waterloo — S​ wimming Varsity  
+Cinematographer and Editor 
 
-Python • Java • C++ • SQL • MATLAB 
-• Scala • Solidity
+September 2017 - PRESENT  
+Planned and created videos​ for the varsity swim team at the University of Waterloo.  
+Generated creative ideas and storyboards.​ Edited footage in ​Premiere Pro and After  
+Effects​ for a polished cinematic video.   
 
-WEB
+Swimming Canada, T​ oronto​ —​ ​Swimming Official  
 
-JavaScript • HTML5 • CSS3 • Django 
-• Node • Flask • Express • MongoDB 
-• JQuery • Socket.io • Amazon Alexa
+September 2014 - PRESENT  
+Worked with professional competition officials to run swimming competitions.  
+Managed race lanes and organized swimmers ​to maintain an efficient meet process.  
+Managed timers and guided them throughout the competition.  
 
-DATA SCIENCE
+Crowned Clothing, ​Thornhill — C​ o-Founder 
 
-R • Jupyter Notebook • TensorFlow 
-• Pandas • Keras • Apache Spark • 
-OpenCV • Synaptic
+September 2015 - September 2017  
+Created a brand and developed a creative direction​ for the company. M​ anaged finances  
+and production​ of each apparel. M​ arketed the product on multiple social media  
+platforms. 
 
-OTHER
+SKILLS  
+BASIC 
 
-Bash • Git • Linux
+Word|Excel|Powerpoint|  
+PC Hardware Assembly  
+and Maintenance 
 
-EDUCATION
+VIDEO 
 
-UNIVERSITY OF WATERLOO 
-COMPUTER ENGINEERING
+Premiere Pro|After Effects 
 
-Expected Jul 2022 | Waterloo, ON 
-GPA: 97 / 100 
-Rank: 1 / 100+
+MEDIA 
 
-Transferred to Software Engineering
+Lightroom|Photoshop|XD| 
+Illustrator|Invision  
 
-COURSEWORK
+COMPUTER LANGUAGES 
 
-Algorithms I & II (Princeton) 
-Big Data With Scala and Spark 
-Machine Learning (Stanford) 
-Deep Learning (Google) 
-Data Analysis With R (Facebook) 
-Intermediate C++ (Microsoft) 
-Reinforcement Learning (Yandex)
+Python|Javascript|Node.js 
 
-AWARDS
+INTERESTS 
 
-TEAM CANADA 
-• International Linguistics Olympiad 
-NATIONAL CHAMPION 
-• Canadian Senior Mathematics 
-Contest
+|Computer Hardware  
+|Fashion  
+|Athletics 
 
-EXPERIENCE
+ 
 
-WATONOMOUS | CORE PERCEPTION TEAM
+EDUCATION 
 
-Sep 2017 – Present | Waterloo, ON 
-• Core member of autonomous car team that will compete in GM’s AutoDrive 
-Challenge 
-• Used convolutional neural network in TensorFlow with OpenCV to segment 
-and classify trafﬁc signs
+Richmond Hill High School, R​ ichmond Hill — ​High School 
 
-SUNNYBROOK RESEARCH INSTITUTE | SOFTWARE INTERN
+September 2013 - June 2017  
+Gifted Program|Advanced Placement Program|Honour Roll  
 
-Jul 2016 – Sep 2016 | Toronto, ON 
-• Created MATLAB software to automatically detect anatomical structures in 
-MRI images 
-• Increased efﬁciency of segmentation process by 80-90%, with comparable 
-accuracy to manual segmentation 
-• Used image morphology techniques and unsupervised learning algorithms
+University of Waterloo, ​Waterloo— ​Digital Media and Business 
 
-INTERNATIONAL LANGUAGES PROGRAM | OFFICE ASSISTANT
+September 2017 - May 2021  
+UX and UI student at the University of Waterloo.  
+ 
 
-Sep 2013 – Jun 2017 | Markham, ON 
-• Led automation of educational materials in VisualBasic, reducing time by 90%
+PROJECTS  
+SHANGHAI ANKON TECHNOLOGIES​ —​ A​ NIMATOR 
 
-PROJECTS
+Creating storyboards and animating vector drawings to create a marketable  
+advertisement for a new product. Introducing a magnetic capsule endoscopy to the  
+public. 
 
-SOCCER SENTIMETER | PYTHON/DJANGO
+SIGN UP FLOW AND LOGIN PAGE —​ PERSONAL UX/UI PROJECT 
 
-• Created dynamic website tracking Twitter sentiment of soccer teams 
-• Used natural language processing and various APIs (Google Maps, Twitter,
+Creating a signup and login page for a social media website. Focusing on minimizing  
+clutter and better user interaction feedback for easier usage. Emphasizing on mobile UI 
 
-Highcharts, MediaWiki, TextBlob)
+design according to hand positions of users.  
 
-• Created clean, responsive design and generated an SQLite3 database
+AWARDS 
 
-CHROME TAB PREDICTOR | JAVASCRIPT/SYNAPTIC
+Canadian Eastern  
+Swimming Championship  
+Gold Medal  
 
-• Chrome extension using a neural network to predict and open tabs
+Mathematica Centrum  
+Math Honour Roll 
 
-• Parsed and organized data and implemented a neural network in Synaptic
+International Language  
+School (Mandarin)​ First  
+Place Overall Award 
 
-INTELLIGENT LIGHTING SYSTEM | C++
+Canadian Chess  
+1st in Areas  
+Top 3 at regionals  
+Provincial Qualifier  
 
-• Created an intelligent mood lighting project running on a Linux embedded 
-system
+LANGUAGES  
+Proficient  
+English|Mandarin 
 
-• Designed and implemented facial detection and image morphology algorithms 
-from scratch
+  
+ 
 
-WORM COLONY SIMULATION | JAVA
-
-• Simulated neural evolution with a novel approach combining synaptic 
-time-dependent plasticity and an evolutionary algorithm
-
-• Simulation demonstrated ability to learn about various environmental inputs
-
-HACKATHONS
-
-INTERVUE | HACK PRINCETON 2017
-
-• Created interview assistant using Amazon Alexa with backend of Node, 
-Express, and socket.io
-
-• Analyzed speech with natural language processing and IBM Watson
-
-• Data stored with MongoDB and presented with chart.js
-
-SOFA SEARCH | HACK THE NORTH 2017
-
-• Recommendation system for sofas and other furniture 
-• Used reinforcement learning on a convolutional neural network in Keras on a
-
-Tensorﬂow backend to identify features from images of furniture
-
-• Connected front and back end using Flask framework
+ 
