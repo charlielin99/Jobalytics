@@ -20,7 +20,8 @@ app.use(express.static('public'));
 app.use(helmet());
 app.set("view engine", "ejs");
 
-var returnedmatch = "";
+var data= ""; //initial value
+var x = false; //initial value
 
 ////////////////////////////
 app.get('/', (req, res) => {
@@ -55,31 +56,31 @@ app.post('/jobalytics', (req, res) => {
 app.post('/home', (req, res) => res.sendFile(__dirname + '/public/main.html'));
 
 
-app.post('/addjobmatch', (req, res) => {
-    var link = req.body.joblink;
-    var destination = fs.createWriteStream('jobDescr.html');
-    request (link).pipe(destination);
 
-    res.redirect("/jobmatch");
 
-/*
-    fs.readFile('jobDescr.html', function(err, data) {  
-        if (err) throw err;
-        returnedmatch = data.text;
-        console.log(returnedmatch); 
-    });
-    */
+
+
+
+
+//JOBMATCH PRONG
+app.post('/jobmatch', (req, res) => {
+
+    if (x === false){ //first run, return empty string
+        x = true;
+        res.render('jobmatch', {returnedmatch: data.text});
+    }
+
+    if (x === true){
+        var link = req.body.joblink;
+        //request(link).pipe(fs.createWriteStream('jobDescr.html'));
+        request(link, function(error,response,body){
+            if (!error && response.statusCode == 200) {
+                data = extractor(body);
+                res.render('jobmatch', {returnedmatch: data.text});
+            }
+        });
+    }
 });
-
-app.get("/jobmatch", function(req, res){
-
-
-    data = extractor(fs.readFileSync('jobDescr.html'));
-    returnedmatch = data.text;
- 
-    res.render('jobmatch', {returnedmatch: returnedmatch});
-});
-
 
 
 
