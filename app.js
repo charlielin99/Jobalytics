@@ -22,15 +22,6 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/frontend/index.html');
 });
 
-app.get('/hi', (req, res) =>{ //testing
-    fs.readFile('test1.txt', function(err, data) {  
-        if (err) throw err;
-        var returnedVal = data;
-        console.log(returnedVal);
-        res.render('jobmatch.ejs', {output1: returnedVal});
-    });
-});
-
 app.post('/jobalytics', (req, res) => {
     var form = new formidable.IncomingForm();
     form.parse(req);
@@ -57,9 +48,21 @@ app.post('/jobalytics', (req, res) => {
 });
 
 app.post('/home', (req, res) => res.sendFile(__dirname + '/frontend/main.html'));
+
+
+
 app.post('/jobmatch', (req, res) => {
-    res.sendFile(__dirname + '/frontend/jobmatch.html')
+    fs.readFile('test1.txt', function(err, data) {  
+        if (err) throw err;
+        var returnedVal = data;
+        console.log(returnedVal);
+        res.render('jobmatch.ejs', {output1: returnedVal});
+    });
 });
+
+
+
+
 app.post('/accomplishments', (req, res) => res.sendFile(__dirname + '/frontend/pros.html'));
 app.post('/radials', (req, res) => res.sendFile(__dirname + '/frontend/radials.html'));
 app.post('/improveyourself', (req, res) => res.sendFile(__dirname + '/frontend/cons.html'));
