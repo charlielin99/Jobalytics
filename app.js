@@ -6,7 +6,8 @@ var express = require('express'),
     fs = require('fs'),
     extractor = require('unfluff'),
     PythonShell = require('python-shell'),
-    request = require('request');
+    request = require('request'),
+    bodyParser = require('body-parser');
 
 var app = express(),
     pyshell;
@@ -14,8 +15,10 @@ var app = express(),
 const dataPath = __dirname + "/data/resume.txt";
 var filePath, resumeJson, resumeText, resumeAuthor, jobReqs, matchJson;
 
+app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('public'));
 app.use(helmet());
+app.set("view engine", "ejs");
 
 ////////////////////////////
 app.get('/', (req, res) => {
@@ -56,7 +59,7 @@ app.post('/jobmatch', (req, res) => {
         if (err) throw err;
         var returnedVal = data;
         console.log(returnedVal);
-        res.render('jobmatch.ejs', {output1: returnedVal});
+        res.render('jobmatch', {output1: returnedVal});
     });
 });
 

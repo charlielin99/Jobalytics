@@ -1,146 +1,141 @@
 
-16 Dallimore Circle #713
+Lawrence Pang
 
-Toronto, Ontario, Canada
+ lypang@edu.uwaterloo.ca |  lpang36 |  lawrencepang.herokuapp.com |  lawrencepang36
 
-c8woo@uwaterloo.ca
-
-Calvin Woo•Mgit3hCub4.cCo4m/cwoozle
-
-•
-
-linkedin.com/in/cwoozle
-
-•
-
-devpost.com/cwoozle
-
-•
-
-500px.com/cwoozle
-
-•
-
-@cwoozle 
-medium.com,/@calvinwoo
-
-Education
-
-Personal/Team Projects
-
-University of Waterloo
-
-Nanotechnology Engineering 
-Expected July 2022
-
-Skills
+SKILLS
 
 Machine Learning 
-Data Science
+Data Science 
+Web Development 
+Algorithms and Data Structures 
+Object-Oriented Programming 
+Image Processing
 
-Phormatics - Team Member
+TECHNOLOGIES
 
-03/18 - | New York, NY, USA 
-devpost.com/software/phormatics - github.com/jrobchin/phormatics
+GENERAL
 
-• Using Tensorflow and OpenCV, developed an AI gym trainer, 
-capable of analyzing form and counting reps for 3 exercises 
-• Used Facebook API to introduce login feature
+Python • Java • C++ • SQL • MATLAB 
+• Scala • Solidity
 
-Algorithmic Trading 
-Data Structures 
-Algorithms 
-OOP
+WEB
 
-Technologies
+JavaScript • HTML5 • CSS3 • Django 
+• Node • Flask • Express • MongoDB 
+• JQuery • Socket.io • Amazon Alexa
 
-Python 
-Java 
-Javascript 
-HTML/CSS 
-Solidity 
-MATLAB 
-MYSQL
+DATA SCIENCE
 
-Coursework
+R • Jupyter Notebook • TensorFlow 
+• Pandas • Keras • Apache Spark • 
+OpenCV • Synaptic
 
-Credit Card Fraud Analysis Project
+OTHER
 
-11/17 - | Waterloo, ON, Canada 
-github.com/cwoozle/ccf
+Bash • Git • Linux
 
-• Using Tensorflow and Python, created software which 
-predicts whether credit card transactions are fraudulent. 
-• Demonstrated a <0.1% false positive rate.
+EDUCATION
 
-Clean Water Project - Team Member
+UNIVERSITY OF WATERLOO 
+COMPUTER ENGINEERING
 
-10/17 - 12/17 | Waterloo, ON, Canada
+Expected Jul 2022 | Waterloo, ON 
+GPA: 97 / 100 
+Rank: 1 / 100+
 
-• Cross-referenced academic articles to report the feasibility 
-of various methods to remove MDMA from wastewater. 
-• Completed over duration of NE100 (Intro to Nanotechnology 
-Engineering) course as a presentation, and work term report.
+Transferred to Software Engineering
 
-Extracurricular Experience
+COURSEWORK
 
-Linear Algebra 
-Calculus I & II¹ 
-Intro to Engineering 
-Computing (Python)
+Algorithms I & II (Princeton) 
+Big Data With Scala and Spark 
+Machine Learning (Stanford) 
+Deep Learning (Google) 
+Data Analysis With R (Facebook) 
+Intermediate C++ (Microsoft) 
+Reinforcement Learning (Yandex)
 
-ORBIT - Co-Director of Photography
+AWARDS
 
-06/16 - 05/17 | Toronto, ON, Canada
+TEAM CANADA 
+• International Linguistics Olympiad 
+NATIONAL CHAMPION 
+• Canadian Senior Mathematics 
+Contest
 
-• Successfully led a team of 40 photographers to submit high 
-quality photos weekly.
+EXPERIENCE
 
-Intro to Computational
+WATONOMOUS | CORE PERCEPTION TEAM
 
-• Oversaw creative vision of yearbook, participated in/ran
+Sep 2017 – Present | Waterloo, ON 
+• Core member of autonomous car team that will compete in GM’s AutoDrive 
+Challenge 
+• Used convolutional neural network in TensorFlow with OpenCV to segment 
+and classify trafﬁc signs
 
-Methods¹ (MATLAB)
+SUNNYBROOK RESEARCH INSTITUTE | SOFTWARE INTERN
 
-weekly meetings, and communciated with printing company.
+Jul 2016 – Sep 2016 | Toronto, ON 
+• Created MATLAB software to automatically detect anatomical structures in 
+MRI images 
+• Increased efﬁciency of segmentation process by 80-90%, with comparable 
+accuracy to manual segmentation 
+• Used image morphology techniques and unsupervised learning algorithms
 
-Algorithms I¹ 
-Chemistry
+INTERNATIONAL LANGUAGES PROGRAM | OFFICE ASSISTANT
 
-(Princeton) Work
+Sep 2013 – Jun 2017 | Markham, ON 
+• Led automation of educational materials in VisualBasic, reducing time by 90%
 
-Experience
+PROJECTS
 
-Organic Chemistry¹ 
-¹ Expected
+SOCCER SENTIMETER | PYTHON/DJANGO
 
-Graphic Design
+• Created dynamic website tracking Twitter sentiment of soccer teams 
+• Used natural language processing and various APIs (Google Maps, Twitter,
 
-Adobe Photoshop 
-Adobe Lightroom 
-Adobe Illustrator 
-Adobe Indesign 
-LaTeX
+Highcharts, MediaWiki, TextBlob)
 
-Interests
+• Created clean, responsive design and generated an SQLite3 database
 
-Freelance Photographer
+CHROME TAB PREDICTOR | JAVASCRIPT/SYNAPTIC
 
-• Worked with paid and time-for-print clients in producing high 
-quality club/portrait/fashion/street photography. 
-• Developed experience in studio lighting and film media.
+• Chrome extension using a neural network to predict and open tabs
 
-Centreville Amusement Park - Sales Associate
+• Parsed and organized data and implemented a neural network in Synaptic
 
-• Opened/closed various stores around amusement park, maintained
-appearance of store and completed sales via POS.
+INTELLIGENT LIGHTING SYSTEM | C++
 
-Technology 
-Photography 
-High Fashion 
-Cooking
+• Created an intelligent mood lighting project running on a Linux embedded 
+system
 
-Awards
+• Designed and implemented facial detection and image morphology algorithms 
+from scratch
 
-Phormatics - Best Startup-Viable Hack - HackNYU 2018 
-Personal Photo - VSCO Feature - VSCO Photography Channel
+WORM COLONY SIMULATION | JAVA
+
+• Simulated neural evolution with a novel approach combining synaptic 
+time-dependent plasticity and an evolutionary algorithm
+
+• Simulation demonstrated ability to learn about various environmental inputs
+
+HACKATHONS
+
+INTERVUE | HACK PRINCETON 2017
+
+• Created interview assistant using Amazon Alexa with backend of Node, 
+Express, and socket.io
+
+• Analyzed speech with natural language processing and IBM Watson
+
+• Data stored with MongoDB and presented with chart.js
+
+SOFA SEARCH | HACK THE NORTH 2017
+
+• Recommendation system for sofas and other furniture 
+• Used reinforcement learning on a convolutional neural network in Keras on a
+
+Tensorﬂow backend to identify features from images of furniture
+
+• Connected front and back end using Flask framework
