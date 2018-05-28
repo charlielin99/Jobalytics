@@ -114,13 +114,8 @@ button:active{
     <textarea rows="5" id="inputsection"></textarea>
     <button onclick="myFunction();" id="check">Check my potential match.</button>
     <textarea readonly id="results" rows="10">
+      <%= output1 %>
     </textarea>
-    <script>
-      function myFunction(){
-        document.getElementById("results").value = 
-    "You match with the company cultures at: 79%. You match with their desired experience at: 98%. You match many necessary keywords at: 42%. (See your specific PROs and CONs for more detail. Best of luck!";  
-      }
-    </script>
     <form action='/home' method="POST">
       <button id="return">Return</button>
     </form>

@@ -23,7 +23,12 @@ app.get('/', (req, res) => {
 });
 
 app.get('/hi', (req, res) =>{ //testing
-    res.render('jobmatch.ejs');
+    fs.readFile('test1.txt', function(err, data) {  
+        if (err) throw err;
+        var returnedVal = data;
+        console.log(returnedVal);
+        res.render('jobmatch.ejs', {output1: returnedVal});
+    });
 });
 
 app.post('/jobalytics', (req, res) => {
