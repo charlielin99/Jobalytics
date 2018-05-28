@@ -20,6 +20,8 @@ app.use(express.static('public'));
 app.use(helmet());
 app.set("view engine", "ejs");
 
+var returnedmatch = "";
+
 ////////////////////////////
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/public/index.html');
@@ -53,15 +55,32 @@ app.post('/jobalytics', (req, res) => {
 app.post('/home', (req, res) => res.sendFile(__dirname + '/public/main.html'));
 
 
+app.post('/addjobmatch', (req, res) => {
+    var link = req.body.joblink;
+    var destination = fs.createWriteStream('jobDescr.html');
+    request (link).pipe(destination);
 
-app.post('/jobmatch', (req, res) => {
-    fs.readFile('test1.txt', function(err, data) {  
+    res.redirect("/jobmatch");
+
+/*
+    fs.readFile('jobDescr.html', function(err, data) {  
         if (err) throw err;
-        var returnedVal = data;
-        console.log(returnedVal);
-        res.render('jobmatch', {output1: returnedVal});
+        returnedmatch = data.text;
+        console.log(returnedmatch); 
     });
+    */
 });
+
+app.get("/jobmatch", function(req, res){
+
+
+    data = extractor(fs.readFileSync('jobDescr.html'));
+    returnedmatch = data.text;
+ 
+    res.render('jobmatch', {returnedmatch: returnedmatch});
+});
+
+
 
 
 

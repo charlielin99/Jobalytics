@@ -5,16 +5,17 @@ var fs = require('fs');
 var request = require('request');
 
 
-var url=localStorage.getItem(“descr”);
+var url="https://www.npmjs.com/package/unfluff"
 var destination = fs.createWriteStream('jobDescription.html');
 request (url).pipe(destination);
 
 
-app.get("/test", function(req,res){
+app.get("/", function(req,res){
 	data = extractor(fs.readFileSync('jobDescription.html'));
 	res.send(data.text)
-	//console.log(data.text)
+	console.log(data.text)
 });
+
 
 //LINKEDIN SCRAPPING
 /*

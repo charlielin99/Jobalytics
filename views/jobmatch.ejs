@@ -6,7 +6,6 @@
     <title>Your Job Match | Jobalytics&trade;</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <script src="js/jobmatch.js"></script>
     <style>
         .fade-in-down {
             animation: fade-in-down 2s ease infinite;
@@ -111,12 +110,14 @@
             border: 0;
         }
     </style>
+
+
 </head>
 
 <body>
     <div id="logo" class="text-center">
         <img src="img/Untitled.png" style="display:block; margin-top: 30px; margin-left:auto; margin-right:auto">
-        <h1 class="fade-in-down">Enter your job description here.</h1>
+        <h1 class="fade-in-down">Enter your job posting here.</h1>
     </div>
     <div class="container-fluid">
         <div class="row">
@@ -131,13 +132,14 @@
                 </div>
             </div>
             <div id="midcolumn" class="col-md-4 fade-in-down">
-                <textarea rows="5" id="inputsection"></textarea>
-                   <% function myFunction() { %>
-                       <% document.getElementById("results").value = output1> %>
-                 <%   }; %>
-                <button onclick="myFunction();" id="check">Check my potential match.</button>
-                <textarea readonly id="results" rows="10">
-                    
+                <form action="/addjobmatch" method="POST">
+                    <input type="text" name="joblink" placeholder="Job URL">
+                <button >Check my potential match.</button>
+
+                </form>
+                
+                <textarea readonly id="results" rows="12">
+                    <%= returnedmatch %>
                 </textarea>
 
 

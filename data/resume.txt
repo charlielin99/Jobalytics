@@ -1,141 +1,87 @@
 
-Lawrence Pang
+/alxli
 
- lypang@edu.uwaterloo.ca |  lpang36 |  lawrencepang.herokuapp.com |  lawrencepang36
+ALEX LI 
+· ·TORONTO, CANADA ME@ALEXLI.CA +1 (647) 550-0382
+
+/alxli
 
 SKILLS
 
-Machine Learning 
-Data Science 
-Web Development 
-Algorithms and Data Structures 
-Object-Oriented Programming 
-Image Processing
+• Experienced in software development, with extensive 
+knowledge of algorithms and data structures
 
-TECHNOLOGIES
+• Proﬁcient in C++, C, Java, Python, PHP, JavaScript, 
+HTML/CSS, SQL, Git, and UNIX-like environments
 
-GENERAL
-
-Python • Java • C++ • SQL • MATLAB 
-• Scala • Solidity
-
-WEB
-
-JavaScript • HTML5 • CSS3 • Django 
-• Node • Flask • Express • MongoDB 
-• JQuery • Socket.io • Amazon Alexa
-
-DATA SCIENCE
-
-R • Jupyter Notebook • TensorFlow 
-• Pandas • Keras • Apache Spark • 
-OpenCV • Synaptic
-
-OTHER
-
-Bash • Git • Linux
+• Familiar with C#, VBScript, Lisp, Haskell, Verilog, 
+LATEX, R, MATLAB, and Mathematica
 
 EDUCATION
 
-UNIVERSITY OF WATERLOO 
-COMPUTER ENGINEERING
+University of Toronto
 
-Expected Jul 2022 | Waterloo, ON 
-GPA: 97 / 100 
-Rank: 1 / 100+
+2015 – Present
 
-Transferred to Software Engineering
+• Pursuing Honours Bachelor of Science in Computer 
+Science and Statistics (cumulative GPA: 3.88)
 
-COURSEWORK
-
-Algorithms I & II (Princeton) 
-Big Data With Scala and Spark 
-Machine Learning (Stanford) 
-Deep Learning (Google) 
-Data Analysis With R (Facebook) 
-Intermediate C++ (Microsoft) 
-Reinforcement Learning (Yandex)
-
-AWARDS
-
-TEAM CANADA 
-• International Linguistics Olympiad 
-NATIONAL CHAMPION 
-• Canadian Senior Mathematics 
-Contest
+• Focus in Artiﬁcial Intelligence and Machine Learning 
+• Expected graduation: May, 2019
 
 EXPERIENCE
 
-WATONOMOUS | CORE PERCEPTION TEAM
+Software Engineering Intern
 
-Sep 2017 – Present | Waterloo, ON 
-• Core member of autonomous car team that will compete in GM’s AutoDrive 
-Challenge 
-• Used convolutional neural network in TensorFlow with OpenCV to segment 
-and classify trafﬁc signs
+Google
 
-SUNNYBROOK RESEARCH INSTITUTE | SOFTWARE INTERN
+Summer 2016, 2017
 
-Jul 2016 – Sep 2016 | Toronto, ON 
-• Created MATLAB software to automatically detect anatomical structures in 
-MRI images 
-• Increased efﬁciency of segmentation process by 80-90%, with comparable 
-accuracy to manual segmentation 
-• Used image morphology techniques and unsupervised learning algorithms
+• Data Infrastructure and Analysis (Mountain View, CA) 
+– Developed automation tools for Evenﬂow, the distributed log-aggregation system behind Google AdWords
 
-INTERNATIONAL LANGUAGES PROGRAM | OFFICE ASSISTANT
+• DoubleClick Bid Manager (New York, NY) 
+– Designed and implemented pipelines to extract, evaluate, and visualize millions of business-chain geotargets 
+– Increased coverage of business chain targeted ad campaigns by over 500% using Google Maps live location data
 
-Sep 2013 – Jun 2017 | Markham, ON 
-• Led automation of educational materials in VisualBasic, reducing time by 90%
+• Technologies involved: C++, JavaScript, HTML/CSS, BigTable, MapReduce, Colossus, S2 Geometry Library
+
+Lead Software Developer
+
+Ivy Global
+
+• Led the full-stack development of Ivy Global’s mission critical projects, including an advanced scoring and reporting 
+tool for the new SAT (cloud.ivyglobal.com) as well as an interactive online classroom (classroom.ivyglobal.com)
+
+Chief Contest Director
+
+Woburn Challenge
+
+• Directed and designed contests for the Woburn Challenge, a popular programming contest for Canadian students 
+• Helped develop and maintain the PEG Online Judge, a contest platform with thousands of monthly active users
 
 PROJECTS
 
-SOCCER SENTIMETER | PYTHON/DJANGO
+• Authored A3C5, an anthology of concise algorithm 
+and data structure implementations in C++
 
-• Created dynamic website tracking Twitter sentiment of soccer teams 
-• Used natural language processing and various APIs (Google Maps, Twitter,
+• Created Syntaxilizer, a formal language analyzer using
+context-free Backus-Naur Form automatons
 
-Highcharts, MediaWiki, TextBlob)
+• Developed problems, analyses, and test data for the 
+2016 Google Code Jam World Finals in New York
 
-• Created clean, responsive design and generated an SQLite3 database
+DISTINCTIONS
 
-CHROME TAB PREDICTOR | JAVASCRIPT/SYNAPTIC
+• University of Toronto Scholars Entrance Award, Dean’s 
+List, and the Dr. Charles and Margaret Brown Award
 
-• Chrome extension using a neural network to predict and open tabs
+• Bronze Medal, 2015 Canadian Computing Olympiad 
+• Gold Division, USA Computing Olympiad (since 2013) 
+• 1st Place, 2011 National School Scrabble Championship
 
-• Parsed and organized data and implemented a neural network in Synaptic
+in Orlando — guest appeared on Jimmy Kimmel Live!
 
-INTELLIGENT LIGHTING SYSTEM | C++
+Updated November 12, 2017. See alexli.ca/resume for the latest version.
 
-• Created an intelligent mood lighting project running on a Linux embedded 
-system
-
-• Designed and implemented facial detection and image morphology algorithms 
-from scratch
-
-WORM COLONY SIMULATION | JAVA
-
-• Simulated neural evolution with a novel approach combining synaptic 
-time-dependent plasticity and an evolutionary algorithm
-
-• Simulation demonstrated ability to learn about various environmental inputs
-
-HACKATHONS
-
-INTERVUE | HACK PRINCETON 2017
-
-• Created interview assistant using Amazon Alexa with backend of Node, 
-Express, and socket.io
-
-• Analyzed speech with natural language processing and IBM Watson
-
-• Data stored with MongoDB and presented with chart.js
-
-SOFA SEARCH | HACK THE NORTH 2017
-
-• Recommendation system for sofas and other furniture 
-• Used reinforcement learning on a convolutional neural network in Keras on a
-
-Tensorﬂow backend to identify features from images of furniture
-
-• Connected front and back end using Flask framework
+c 2017 Alex Li
