@@ -132,11 +132,16 @@
             </div>
             <div id="midcolumn" class="col-md-4 fade-in-down">
                 <textarea rows="5" id="inputsection"></textarea>
+                   <% function myFunction() { %>
+                       <% document.getElementById("results").value = output1> %>
+                 <%   }; %>
                 <button onclick="myFunction();" id="check">Check my potential match.</button>
                 <textarea readonly id="results" rows="10">
-                    <%= output1 %>
+                    
                 </textarea>
 
+
+             
                 <form action='/home' method="POST">
                     <button id="return">Return</button>
                 </form>

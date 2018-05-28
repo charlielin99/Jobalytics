@@ -14,12 +14,12 @@ var app = express(),
 const dataPath = __dirname + "/data/resume.txt";
 var filePath, resumeJson, resumeText, resumeAuthor, jobReqs, matchJson;
 
-app.use(express.static('FrontEnd'));
+app.use(express.static('public'));
 app.use(helmet());
 
 ////////////////////////////
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/frontend/index.html');
+    res.sendFile(__dirname + '/public/index.html');
 });
 
 app.post('/jobalytics', (req, res) => {
@@ -44,10 +44,10 @@ app.post('/jobalytics', (req, res) => {
         });
         console.log(resumeAuthor); //use case undetermined
     });
-    form.on('end', (name, file) => res.sendFile(__dirname + '/frontend/main.html'));
+    form.on('end', (name, file) => res.sendFile(__dirname + '/public/main.html'));
 });
 
-app.post('/home', (req, res) => res.sendFile(__dirname + '/frontend/main.html'));
+app.post('/home', (req, res) => res.sendFile(__dirname + '/public/main.html'));
 
 
 
@@ -63,11 +63,11 @@ app.post('/jobmatch', (req, res) => {
 
 
 
-app.post('/accomplishments', (req, res) => res.sendFile(__dirname + '/frontend/pros.html'));
-app.post('/radials', (req, res) => res.sendFile(__dirname + '/frontend/radials.html'));
-app.post('/improveyourself', (req, res) => res.sendFile(__dirname + '/frontend/cons.html'));
-app.post('/personas', (req, res) => res.sendFile(__dirname + '/frontend/personas.html'));
-app.post('/keywords', (req, res) => res.sendFile(__dirname + '/frontend/frequent.html'));
+app.post('/accomplishments', (req, res) => res.sendFile(__dirname + '/public/pros.html'));
+app.post('/radials', (req, res) => res.sendFile(__dirname + '/public/radials.html'));
+app.post('/improveyourself', (req, res) => res.sendFile(__dirname + '/public/cons.html'));
+app.post('/personas', (req, res) => res.sendFile(__dirname + '/public/personas.html'));
+app.post('/keywords', (req, res) => res.sendFile(__dirname + '/public/frequent.html'));
 
 ////////////////////////////
 app.listen(port, () => {

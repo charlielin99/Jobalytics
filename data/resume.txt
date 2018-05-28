@@ -1,118 +1,146 @@
 
- 
+16 Dallimore Circle #713
 
-MARK HUANG 
+Toronto, Ontario, Canada
 
-Searching for an internship performing media, design or marketing related work 
+c8woo@uwaterloo.ca
 
-199 Colesbrook Road  
-Richmond Hill  
-647-606-9418  
-markhuang1999@gmail.com  
-linkedin.com/in/markhjy 
+Calvin Woo•Mgit3hCub4.cCo4m/cwoozle
 
-EXPERIENCE 
+•
 
-University of Waterloo Varsity, ​Waterloo — S​ wimming Varsity  
-Cinematographer and Editor 
+linkedin.com/in/cwoozle
 
-September 2017 - PRESENT  
-Planned and created videos​ for the varsity swim team at the University of Waterloo.  
-Generated creative ideas and storyboards.​ Edited footage in ​Premiere Pro and After  
-Effects​ for a polished cinematic video.   
+•
 
-Swimming Canada, T​ oronto​ —​ ​Swimming Official  
+devpost.com/cwoozle
 
-September 2014 - PRESENT  
-Worked with professional competition officials to run swimming competitions.  
-Managed race lanes and organized swimmers ​to maintain an efficient meet process.  
-Managed timers and guided them throughout the competition.  
+•
 
-Crowned Clothing, ​Thornhill — C​ o-Founder 
+500px.com/cwoozle
 
-September 2015 - September 2017  
-Created a brand and developed a creative direction​ for the company. M​ anaged finances  
-and production​ of each apparel. M​ arketed the product on multiple social media  
-platforms. 
+•
 
-SKILLS  
-BASIC 
+@cwoozle 
+medium.com,/@calvinwoo
 
-Word|Excel|Powerpoint|  
-PC Hardware Assembly  
-and Maintenance 
+Education
 
-VIDEO 
+Personal/Team Projects
 
-Premiere Pro|After Effects 
+University of Waterloo
 
-MEDIA 
+Nanotechnology Engineering 
+Expected July 2022
 
-Lightroom|Photoshop|XD| 
-Illustrator|Invision  
+Skills
 
-COMPUTER LANGUAGES 
+Machine Learning 
+Data Science
 
-Python|Javascript|Node.js 
+Phormatics - Team Member
 
-INTERESTS 
+03/18 - | New York, NY, USA 
+devpost.com/software/phormatics - github.com/jrobchin/phormatics
 
-|Computer Hardware  
-|Fashion  
-|Athletics 
+• Using Tensorflow and OpenCV, developed an AI gym trainer, 
+capable of analyzing form and counting reps for 3 exercises 
+• Used Facebook API to introduce login feature
 
- 
+Algorithmic Trading 
+Data Structures 
+Algorithms 
+OOP
 
-EDUCATION 
+Technologies
 
-Richmond Hill High School, R​ ichmond Hill — ​High School 
+Python 
+Java 
+Javascript 
+HTML/CSS 
+Solidity 
+MATLAB 
+MYSQL
 
-September 2013 - June 2017  
-Gifted Program|Advanced Placement Program|Honour Roll  
+Coursework
 
-University of Waterloo, ​Waterloo— ​Digital Media and Business 
+Credit Card Fraud Analysis Project
 
-September 2017 - May 2021  
-UX and UI student at the University of Waterloo.  
- 
+11/17 - | Waterloo, ON, Canada 
+github.com/cwoozle/ccf
 
-PROJECTS  
-SHANGHAI ANKON TECHNOLOGIES​ —​ A​ NIMATOR 
+• Using Tensorflow and Python, created software which 
+predicts whether credit card transactions are fraudulent. 
+• Demonstrated a <0.1% false positive rate.
 
-Creating storyboards and animating vector drawings to create a marketable  
-advertisement for a new product. Introducing a magnetic capsule endoscopy to the  
-public. 
+Clean Water Project - Team Member
 
-SIGN UP FLOW AND LOGIN PAGE —​ PERSONAL UX/UI PROJECT 
+10/17 - 12/17 | Waterloo, ON, Canada
 
-Creating a signup and login page for a social media website. Focusing on minimizing  
-clutter and better user interaction feedback for easier usage. Emphasizing on mobile UI 
+• Cross-referenced academic articles to report the feasibility 
+of various methods to remove MDMA from wastewater. 
+• Completed over duration of NE100 (Intro to Nanotechnology 
+Engineering) course as a presentation, and work term report.
 
-design according to hand positions of users.  
+Extracurricular Experience
 
-AWARDS 
+Linear Algebra 
+Calculus I & II¹ 
+Intro to Engineering 
+Computing (Python)
 
-Canadian Eastern  
-Swimming Championship  
-Gold Medal  
+ORBIT - Co-Director of Photography
 
-Mathematica Centrum  
-Math Honour Roll 
+06/16 - 05/17 | Toronto, ON, Canada
 
-International Language  
-School (Mandarin)​ First  
-Place Overall Award 
+• Successfully led a team of 40 photographers to submit high 
+quality photos weekly.
 
-Canadian Chess  
-1st in Areas  
-Top 3 at regionals  
-Provincial Qualifier  
+Intro to Computational
 
-LANGUAGES  
-Proficient  
-English|Mandarin 
+• Oversaw creative vision of yearbook, participated in/ran
 
-  
- 
+Methods¹ (MATLAB)
 
- 
+weekly meetings, and communciated with printing company.
+
+Algorithms I¹ 
+Chemistry
+
+(Princeton) Work
+
+Experience
+
+Organic Chemistry¹ 
+¹ Expected
+
+Graphic Design
+
+Adobe Photoshop 
+Adobe Lightroom 
+Adobe Illustrator 
+Adobe Indesign 
+LaTeX
+
+Interests
+
+Freelance Photographer
+
+• Worked with paid and time-for-print clients in producing high 
+quality club/portrait/fashion/street photography. 
+• Developed experience in studio lighting and film media.
+
+Centreville Amusement Park - Sales Associate
+
+• Opened/closed various stores around amusement park, maintained
+appearance of store and completed sales via POS.
+
+Technology 
+Photography 
+High Fashion 
+Cooking
+
+Awards
+
+Phormatics - Best Startup-Viable Hack - HackNYU 2018 
+Personal Photo - VSCO Feature - VSCO Photography Channel
