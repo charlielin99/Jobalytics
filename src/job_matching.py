@@ -17,6 +17,12 @@ The flow is:
 
 '''
 
+job_desc = str(open("frontend/job.txt","r+"))
+
+def initializer():
+	resume = str(open("data/resume.txt","r+"))
+	skills_matcher(job_desc, resume)
+
 
 def analyzer(job_desc):
 	shordy = keywords(job_desc, threshold = 0.15)
@@ -52,10 +58,19 @@ def skills_matcher(job_desc, resume):
 		skills_dictionary[r] = round(float(direct_dictionary_call[r]), 1)
 	good_dict = {i:skills_dictionary[i] for i in skills_dictionary.keys() if skills_dictionary[i] > 0.5}
 	bad_dict = {i:skills_dictionary[i] for i in skills_dictionary.keys() if skills_dictionary[i] < 0.5}
+	print([good_dict,bad_dict])
+	text_good = open("frontend/good_stuff.txt","w")
+	text_bad = open("frontend/bad_stuff.txt","w")
+	for i in good_dict.keys():
+		print("You are good at: " + str(i) + "! You scored a " + str(good_dict[i]) + "% match!")
+		text_good.write("You are good at: " + str(i) + "! You scored a " + str(good_dict[i]) + "% match!")
+	for j in bad_dict.keys():
+		print("You are bad at: " + str(j) + ". You scored a " + str(bad_dict[j]) + "% match. ")
+		text_bad.write("You are bad at: " + str(j) + ". You scored a " + str(bad_dict[j]) + "% match. ")
 	return [good_dict,bad_dict]
 
 if __name__ == '__main__':
-	skills_matcher(job_desc, resume)
+	initializer()
 
 
 

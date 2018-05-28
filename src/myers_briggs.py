@@ -16,7 +16,7 @@ config.api_key = '27df1eee04c5b65fb3113e9458d1d701'
 probabilities of the 16 Myers-Briggs personality traits
 '''
 
-resume = "Muyun(Vicky) Lyum3lyu@edu.uwaterloo.ca 226-201-4422 2A Computer Engineering | University of Waterloo ID#20664422 Summary of Qualifications Experienced with C++, JAVA, strengthened by projects and related courses Experienced with Android application development and object-oriented programming in work place and related courses Familiar with Python, MySQL and PHP by self-stud"
+resume = str(open("data/resume.txt","r+"))
 
 def briggs_test(resume):
 	myers_array = []
