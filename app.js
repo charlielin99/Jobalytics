@@ -6,59 +6,87 @@ var express = require('express'),
     fs = require('fs'),
     extractor = require('unfluff'),
     PythonShell = require('python-shell'),
-    request = require('request');
+    request = require('request'),
+    bodyParser = require('body-parser');
 
-var app = express(),
-    pyshell;
+var app = express(), form, link;
+var firstRun = true;
 
-const dataPath = __dirname + "/data/resume.txt";
-var filePath, resumeJson, resumeText, resumeAuthor, jobReqs, matchJson;
+const resumePdfPath = __dirname + "/data/resumePDF.pdf",
+      resumeTxtPath = __dirname + "/data/resume.txt",
+      descrPath = __dirname + "/data/jobDescr.txt";
+var filePath, resumeJson, resumeText, resumeAuthor, descrText, jobReqs, matchJson;
 
-app.use(express.static('FrontEnd'));
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(express.static('public'));
 app.use(helmet());
+app.set("view engine", "ejs");
 
 ////////////////////////////
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/frontend/index.html');
+    res.sendFile(__dirname + '/public/index.html');
 });
 
 app.post('/jobalytics', (req, res) => {
-    var form = new formidable.IncomingForm();
+    form = new formidable.IncomingForm();
     form.parse(req);
-    form.on('fileBegin', async (name, file) => {
-        file.path = __dirname + '/uploads/' + file.name;
+    form.on('fileBegin', (name, file) => {
+        file.path = resumePdfPath;
     });
-    form.on('file', async (name, file) => {
-        pyshell = new PythonShell('src/myResume.py')
-        pyshell.send('uploads/' + file.name);
-        pyshell.on('message', function (message) {
+    form.on('file', (name, file) => {
+        (new PythonShell('src/myResume.py')).on('message', (message) => {
             resumeJson = JSON.parse(message);
             resumeText = resumeJson['text'];
             resumeAuthor = resumeText.split('\n')[1] || resumeText.split('\n')[0] || 'YOU';
-            fs.writeFile(dataPath, resumeText, function(err) {
+            fs.writeFile(resumeTxtPath, resumeText, function(err) {
                 if(err) {
                     return console.log(err);
                 }
-                console.log("The file was saved!");
+                console.log("Hi, " + resumeAuthor); //use case undetermined
             });
         });
-        console.log(resumeAuthor);
     });
-    form.on('end', (name, file) => res.sendFile(__dirname + '/frontend/main.html'));
+    form.on('end', (name, file) => res.sendFile(__dirname + '/public/main.html'));
 });
 
-app.post('/home', (req, res) => res.sendFile(__dirname + '/frontend/main.html'));
-app.post('/jobmatch', (req, res) => {
-    res.sendFile(__dirname + '/frontend/jobmatch.html')
+app.post('/home', (req, res) => {
+    firstRun = true;
+    res.sendFile(__dirname + '/public/main.html');
 });
-app.post('/accomplishments', (req, res) => res.sendFile(__dirname + '/frontend/pros.html'));
-app.post('/radials', (req, res) => res.sendFile(__dirname + '/frontend/radials.html'));
-app.post('/improveyourself', (req, res) => res.sendFile(__dirname + '/frontend/cons.html'));
-app.post('/personas', (req, res) => res.sendFile(__dirname + '/frontend/personas.html'));
-app.post('/keywords', (req, res) => res.sendFile(__dirname + '/frontend/frequent.html'));
+app.post('/jobmatch', (req, res) => {
+    if (firstRun){ //first run, return empty string
+        firstRun = false;
+        res.render('jobmatch', {returnedmatch: ""});
+    } else {
+        link = req.body.joblink;
+        if (link != ""){
+            request(link, function(error, response, body){
+                if (!error && response.statusCode == 200) {
+                    descrText = extractor(body).text;
+                    fs.writeFile(descrPath, descrText, (err) => {
+                        if (err){
+                            return console.log(err);
+                        }
+                        console.log("Description parse was successful!");
+                    });
+                    PythonShell.run('src/job_matching.py', (err, msg) => {
+                        res.render('jobmatch', {returnedmatch: msg.join("\n")});
+                    });
+                } else {
+                    console.log(error);
+                    console.log("Status code = " + response.statusCode);
+                }
+            });
+        }
+    }
+});
+app.post('/accomplishments', (req, res) => res.sendFile(__dirname + '/public/pros.html'));
+app.post('/radials', (req, res) => res.sendFile(__dirname + '/public/radials.html'));
+app.post('/improveyourself', (req, res) => res.sendFile(__dirname + '/public/cons.html'));
+app.post('/personas', (req, res) => res.sendFile(__dirname + '/public/personas.html'));
+app.post('/keywords', (req, res) => res.sendFile(__dirname + '/public/frequent.html'));
 
 ////////////////////////////
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}/`);
 });
-

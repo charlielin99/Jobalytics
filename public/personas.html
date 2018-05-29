@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Personas | Jobalytics&trade;</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <style>
+        .fade-in-down {
+            animation: fade-in-down 2s ease infinite;
+            animation-iteration-count: 1;
+        }
+        
+        @keyframes fade-in-down {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .hvr-float {
+            display: inline-block;
+            vertical-align: middle;
+            -webkit-transform: perspective(1px) translateZ(0);
+            transform: perspective(1px) translateZ(0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+            -webkit-transition-property: transform;
+            transition-property: transform;
+            -webkit-transition-timing-function: ease-out;
+            transition-timing-function: ease-out;
+        }
+        
+        .hvr-float:hover,
+        .hvr-float:focus,
+        .hvr-float:active {
+            -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+        }
+        
+        body {
+            font-family: Roboto;
+            background: -webkit-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%);
+            /* Chrome 10+, Saf5.1+ */
+            background: -moz-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%);
+            /* FF3.6+ */
+            background: -ms-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%);
+            /* IE10 */
+            background: -o-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%);
+            /* Opera 11.10+ */
+            background: linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%);
+            /* W3C */
+        }
+        
+        h1 {
+            font-size: 20px;
+            color: white;
+            text-align: center;
+        }
+        
+        textarea {
+            resize: none;
+            width: 100%;
+            border: 2px solid #BF1F64;
+            border-radius: 4px;
+            background-color: #f8f8f8;
+            font-size: 16px;
+        }
+        
+        button {
+            color: #fff;
+            background: #DD2E64;
+            border: none;
+            width: 100%;
+            border-radius: 4px;
+            border-bottom: 4px solid #AE2167;
+            transition: all .2s ease;
+            outline: none;
+        }
+        
+        #check {
+            margin-bottom: 5px;
+            height: 35px;
+            font-size: medium;
+        }
+        
+        #returnbutton {
+            margin-top: 5px;
+            height: 50px;
+            font-size: medium;
+        }
+        
+        #resultsbox {
+            margin-top: 5px;
+            background-color: lightgrey;
+        }
+        
+        button:hover {
+            background: #AE2167;
+            color: #fff;
+        }
+        
+        button:active {
+            border: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="logo" class="text-center">
+        <img src="img/Untitled.png" style="display:block; margin-top: 30px; margin-left:auto; margin-right:auto">
+        <h1 class="fade-in-down">Here are your results.</h1>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="leftcolumn" class="col-md-4">
+                <div class="card hvr-float" style="width: 100%;   border: 2px solid #FBB959;
+  border-radius:4px;">
+                    <img class="card-img-top" src="img/teamwork.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Why is this important?</h4>
+                        <p class="card-text">Tied to your Myers Briggs&reg; results, your persona is one of 16 potential team roles that you fulfill. Whether you are a mediator, arbitrator, debator, or consul, you can effectively take on an important role in a team environment.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="midcolumn" class="col-md-4 fade-in-down">
+                <textarea readonly id="results" rows="20">
+                    Your persona indicates: COMMANDER. ENTJs are natural-born leaders. People with this personality type embody the gifts of charisma and confidence, and project authority in a way that draws crowds together behind a common goal. You will excel in career situations that require this natural type of leadership and interconnection with your fellow colleagues. Best of luck!
+                </textarea>
+                <form action='/home' method="POST">
+                    <button id="return">Return</button>
+                </form>
+            </div>
+            <div id="rightcolumn" class="col-md-4">
+                <div class="card hvr-float" style="width: 100%;   border: 2px solid #FBB959;
+  border-radius:4px;">
+                    <img class="card-img-top" src="img/teamwork2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">How does it work?</h4>
+                        <p class="card-text">Our algorithm uses natural language processing to discover hints about your Myers Briggs&reg; results from prior experiences, interests, skills, and typing mannerisms, then produces your persona result.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,196 +1,110 @@
 
-DANE	SISINNI
+Nicholas Tommasini
 
- dsisinni@uwo.ca  danesisinni.com  (289)-668-3263  dfsisinni
+(647) 709-7304 | ntommasi@uwo.ca | linkedin.com/in/n-tommasini/
 
 EDUCATION
 
-Ivey	School	of	Business
+Western University
 
-Honours Business Administration 2020
+London, ON
 
-Western	University
+Candidate for Bachelor of Financial Economics
 
-Bachelor of Engineering Software Engineering 2020
+September 2017 – Present
 
-SE2205 - Algorithms and Data Structures: 100% 
-SE2250 - Software Construction: 99% 
-Dean's Honour List - 89% Cumulative Average
+o GPA: 3.94/4.00 – 96.0%; Advanced Entry status to Ivey Business School
 
-Ridley	College
+o Honors: One of 30 National Scholars; scholarship value of $30,000
 
-OSSD & IB Certi cates High School 2015
+o Test Scores: ACT: 35/36; SAT Math II: 800/800; SAT Chemistry: 800/800
 
-Graduated with highest combined grade 11/12 average of 96%
+o Relevant Coursework: Financial Analysis, Accounting, Economics, Computer Science – Python & Java
 
-ACTIVITIES
+WORK & LEADERSHIP EXPERIENCE
 
-Mustang	Capital, 
-Quantitative	Trading	Analyst 
-Western	ACM	-	Programming	Team
+Ivey FinTech Pro-Bono Consulting
 
-Oct	2017	Current
+London, ON
 
-Sep	2016	-	Current
+Consultant
 
-Competed at the East Central North America regional event 
-on Oct 28/29 - placed 2nd at Western
+January 2018 – Present
 
-TEDxLondonON, VP	Tech
+o Led team in creating a business positioning plan for Canadian FinTech start-up requiring further
 
-Sep	2017	-	Current
+development and guidance to bring client-facing financial risk-assessment app to market
 
-Technology lead for the TEDxLondonON organizing team
+o Communicated with clients regularly through conference calls to align goals and expectations and
 
-Western	Hack	Team, VP	Events
+facilitate goodwill, establishing strategy that met philanthropic and financial literacy goals of the
 
-Aug	2016	-	Apr	2017
+company leadership
 
-Co-founded a coding bootcamp to teach over 150 students 
-Taught coding from scratch at weekly workshops 
-Topics included Java Fundamentals, Algorithms & Data 
-Structures, Web Development (Meteor) & Android/iOS
+o Developed a cohesive pitch deck using analysis of corporate capabilities, value-chain and industry
 
-PROJECTS
+through PEST, ultimately realizing entry strategy that will be implemented by client
 
-Calewiz
+Undaunted Equity Research Group
 
-May	2017	-	Current
+London, ON
 
-Created a smart, automated employee scheduling solution for
+Analyst
 
-small businesses using Java Spring
+January 2018 – Present
 
-Reduced schedule creation time from 12 hours to 30 mins
+o Produced and published equity research reports for Canadian and U.S. equities, including
 
-Sanus
+NYSE:CIEN and NASDAQ:EGRX; CIEN has since realized upside of over 18%
 
-Sep	2016
+o Used a variety of financial modelling methods, including DCF, DDM and NAV models, to
 
-Sanus is your personalized digital medical portfolio
+determine intrinsic value of companies in the technology and healthcare sectors
 
-It allows users to keep track of allergies and medications and
+Ivey Business Review
 
-automatically noti es when a con ict arises
+London, ON
 
-Pro les can be easily shared with physicians (QR Code)
+Senior Researcher
 
-Developed with Meteor JS at Hack the North 2016
+September 2017 – Present
 
-Connection	Established
+o Evaluated proposals and problem analyses for fall and winter publications, performing comprehensive
 
-Apr	2016
+fact-check and logistical analysis for multiple drafts
 
-Provides connectivity to users in developing countries lacking
+o Worked with authors and lead editors to manage thematic direction and consistency of final product,
 
-reliable 3G coverage or a smartphone
+reworking articles when necessary to ensure logical flow
 
-Created a SMS/Voice personal assistant for users with only an
+o Managed recruiting process for hiring of new researchers, selecting from a wide array of qualified
 
-EDGE connection and no smartphone
+candidates to determine optimal team composition for future work
 
-Traf c is routed through Java servlets and mapped to the
+AIC Consulting
 
-most relevant data source using IBM Watson's API
+Toronto, ON
 
-VEX	Robotics	-	Team	1509
+July 2017 – September 2017
 
-Sep	2013	-	Apr	2015
+o Managed outreach and procured sales leads in foreign markets, increasing presence in emerging
 
-Ranked 2nd in Canada, 13th in World for Programming Skills 
-Math Division Semi nalists at 2015 World Championship
+economies to build clientele and brand awareness
 
-EMPLOYMENT
+o Developed marketing content and advertising campaign for investment seminars to inform foreign
 
-Wealthsimple, 
-Software	Engineer	-	Brokerage	Team
+investors and entrepreneurs of the benefits of domestic Canadian business holding, establishing social
 
-Toronto,	ON
+media growth of over 40% in two months
 
-May	2017	-	Aug 
-2017
+ADDITIONAL INFORMATION
 
-Core developer for the new automated, paperless brokerage 
-account opening API that reduced account opening times from 
-48 hours to mere seconds 
-Primarily developed REST APIs in Java with Rest Easy 
-Heavy emphasis on development and migration from Oracle 
-PL/SQL (old brokerage operations) to PostgreSQL
+o Achievements: Top 10, HackPrinceton 2018; 2nd Place, Airbnb Canada Consulting Competition
 
-Created critical features on the internal web tooling for 
-brokerage operations staff with Angular JS and Bootstrap 
-Relied on Excel and Periscope modelling for decision making
+o Extracurricular: Researcher, Western Investment Club; Vice-President of Finance, SpitStrips
 
-KnowRoaming, Software	Engineer May	2016	-	Aug	2016
+o Technical: Proficient in Java; Python; UML; XML; SQL; Microsoft Office Suite; Adobe Suite
 
-Toronto,	ON
+o Certifications: CISCO FIT Certificate – Software Design & Development Concentration
 
-Developed a web portal from the ground up to manage all IOT
-
-Connect devices
-
-Worked with the CTO to deliver the IOT Connect platform
-
-Pitched to clients in sales meetings to help secure and maintain
-
-lucrative contracts
-
-Backend: Java Spring, Frontend: Angular JS + Bootstrap
-
-Evertz	Microsystems	Ltd., 
-Software	Developer
-
-Markham,	ON
-
-Jun	2014	-	Sep 
-2014
-
-Created Bash scripts to troubleshoot customer issues 
-and emulate customer usage of software 
-Devised solutions and performed bug xes in C++
-
-AWARDS
-
-Engineering	Showcase	-	Top	5	Projects, 
-Western	University
-
-Design Project: Connection Established
-
-Apr 
-2016
-
-Schulich	Leader, Schulich	Foundation
-
-May	2015
-
-National Scholarship awarded to the next generation of STEM
-
-innovators valued at $80,000
-
-Chancellor's	Scholarship, Queen's	University
-
-May	2015
-
-$36,000 for study at Queen’s University (declined award)
-
-Governor	General's	Medal, Ridley	College
-
-May	2015
-
-Awarded to the student with the highest average
-
-ACT	Score	-	34/36
-
-Jan	2015
-
-99th percentile - Math: 36/36, Science: 35/36
-
-SKILLS/INTERESTS
-
-TECHNICAL	SKILLS:	Java, C#, C/C++, HTML/CSS, PHP, SQL, R,
-
-Spring, Rest Easy, Vaadin, MongoDB, Angular JS, React, Meteor 
-INTERESTS:	Skiing, Soccer, Canoeing, Camping, Ping Pong 
-OTHER	ACTIVITIES:	Investment Club - Researcher,
-
-Algo Trading Club - Platform Developer, U10 Soccer Coach
+o Interests: Hockey; piano; creative writing; skiing; traveling
