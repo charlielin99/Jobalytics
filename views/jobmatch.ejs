@@ -105,13 +105,11 @@
             background: #AE2167;
             color: #fff;
         }
-        
+
         button:active {
             border: 0;
         }
     </style>
-
-
 </head>
 
 <body>
@@ -122,8 +120,7 @@
     <div class="container-fluid">
         <div class="row">
             <div id="leftcolumn" class="col-md-4">
-                <div class="card hvr-float" style="width: 100%;   border: 2px solid #FBB959;
-  border-radius:4px;">
+                <div class="card hvr-float" style="width: 100%; border: 2px solid #FBB959; border-radius:4px;">
                     <img class="card-img-top" src="img/interview2.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h4 class="card-title">Why is this important?</h4>
@@ -134,16 +131,9 @@
             <div id="midcolumn" class="col-md-4 fade-in-down">
                 <form action="/jobmatch" method="POST">
                     <input type="text" name="joblink" placeholder="Job URL" style="width: 505px;">
-                <button >Check my potential match.</button>
-
+                    <button>Check my potential match.</button>
                 </form>
-                
-                <textarea readonly id="results" rows="12">
-                    <%= returnedmatch %>
-                </textarea>
-
-
-             
+                <textarea readonly id="results" rows="12"><%= returnedmatch %></textarea>
                 <form action='/home' method="POST">
                     <button id="return">Return</button>
                 </form>
@@ -161,5 +151,4 @@
         </div>
     </div>
 </body>
-
 </html>

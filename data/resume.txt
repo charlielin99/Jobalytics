@@ -1,141 +1,110 @@
 
-Lawrence Pang
+Nicholas Tommasini
 
- lypang@edu.uwaterloo.ca |  lpang36 |  lawrencepang.herokuapp.com |  lawrencepang36
-
-SKILLS
-
-Machine Learning 
-Data Science 
-Web Development 
-Algorithms and Data Structures 
-Object-Oriented Programming 
-Image Processing
-
-TECHNOLOGIES
-
-GENERAL
-
-Python • Java • C++ • SQL • MATLAB 
-• Scala • Solidity
-
-WEB
-
-JavaScript • HTML5 • CSS3 • Django 
-• Node • Flask • Express • MongoDB 
-• JQuery • Socket.io • Amazon Alexa
-
-DATA SCIENCE
-
-R • Jupyter Notebook • TensorFlow 
-• Pandas • Keras • Apache Spark • 
-OpenCV • Synaptic
-
-OTHER
-
-Bash • Git • Linux
+(647) 709-7304 | ntommasi@uwo.ca | linkedin.com/in/n-tommasini/
 
 EDUCATION
 
-UNIVERSITY OF WATERLOO 
-COMPUTER ENGINEERING
+Western University
 
-Expected Jul 2022 | Waterloo, ON 
-GPA: 97 / 100 
-Rank: 1 / 100+
+London, ON
 
-Transferred to Software Engineering
+Candidate for Bachelor of Financial Economics
 
-COURSEWORK
+September 2017 – Present
 
-Algorithms I & II (Princeton) 
-Big Data With Scala and Spark 
-Machine Learning (Stanford) 
-Deep Learning (Google) 
-Data Analysis With R (Facebook) 
-Intermediate C++ (Microsoft) 
-Reinforcement Learning (Yandex)
+o GPA: 3.94/4.00 – 96.0%; Advanced Entry status to Ivey Business School
 
-AWARDS
+o Honors: One of 30 National Scholars; scholarship value of $30,000
 
-TEAM CANADA 
-• International Linguistics Olympiad 
-NATIONAL CHAMPION 
-• Canadian Senior Mathematics 
-Contest
+o Test Scores: ACT: 35/36; SAT Math II: 800/800; SAT Chemistry: 800/800
 
-EXPERIENCE
+o Relevant Coursework: Financial Analysis, Accounting, Economics, Computer Science – Python & Java
 
-WATONOMOUS | CORE PERCEPTION TEAM
+WORK & LEADERSHIP EXPERIENCE
 
-Sep 2017 – Present | Waterloo, ON 
-• Core member of autonomous car team that will compete in GM’s AutoDrive 
-Challenge 
-• Used convolutional neural network in TensorFlow with OpenCV to segment 
-and classify trafﬁc signs
+Ivey FinTech Pro-Bono Consulting
 
-SUNNYBROOK RESEARCH INSTITUTE | SOFTWARE INTERN
+London, ON
 
-Jul 2016 – Sep 2016 | Toronto, ON 
-• Created MATLAB software to automatically detect anatomical structures in 
-MRI images 
-• Increased efﬁciency of segmentation process by 80-90%, with comparable 
-accuracy to manual segmentation 
-• Used image morphology techniques and unsupervised learning algorithms
+Consultant
 
-INTERNATIONAL LANGUAGES PROGRAM | OFFICE ASSISTANT
+January 2018 – Present
 
-Sep 2013 – Jun 2017 | Markham, ON 
-• Led automation of educational materials in VisualBasic, reducing time by 90%
+o Led team in creating a business positioning plan for Canadian FinTech start-up requiring further
 
-PROJECTS
+development and guidance to bring client-facing financial risk-assessment app to market
 
-SOCCER SENTIMETER | PYTHON/DJANGO
+o Communicated with clients regularly through conference calls to align goals and expectations and
 
-• Created dynamic website tracking Twitter sentiment of soccer teams 
-• Used natural language processing and various APIs (Google Maps, Twitter,
+facilitate goodwill, establishing strategy that met philanthropic and financial literacy goals of the
 
-Highcharts, MediaWiki, TextBlob)
+company leadership
 
-• Created clean, responsive design and generated an SQLite3 database
+o Developed a cohesive pitch deck using analysis of corporate capabilities, value-chain and industry
 
-CHROME TAB PREDICTOR | JAVASCRIPT/SYNAPTIC
+through PEST, ultimately realizing entry strategy that will be implemented by client
 
-• Chrome extension using a neural network to predict and open tabs
+Undaunted Equity Research Group
 
-• Parsed and organized data and implemented a neural network in Synaptic
+London, ON
 
-INTELLIGENT LIGHTING SYSTEM | C++
+Analyst
 
-• Created an intelligent mood lighting project running on a Linux embedded 
-system
+January 2018 – Present
 
-• Designed and implemented facial detection and image morphology algorithms 
-from scratch
+o Produced and published equity research reports for Canadian and U.S. equities, including
 
-WORM COLONY SIMULATION | JAVA
+NYSE:CIEN and NASDAQ:EGRX; CIEN has since realized upside of over 18%
 
-• Simulated neural evolution with a novel approach combining synaptic 
-time-dependent plasticity and an evolutionary algorithm
+o Used a variety of financial modelling methods, including DCF, DDM and NAV models, to
 
-• Simulation demonstrated ability to learn about various environmental inputs
+determine intrinsic value of companies in the technology and healthcare sectors
 
-HACKATHONS
+Ivey Business Review
 
-INTERVUE | HACK PRINCETON 2017
+London, ON
 
-• Created interview assistant using Amazon Alexa with backend of Node, 
-Express, and socket.io
+Senior Researcher
 
-• Analyzed speech with natural language processing and IBM Watson
+September 2017 – Present
 
-• Data stored with MongoDB and presented with chart.js
+o Evaluated proposals and problem analyses for fall and winter publications, performing comprehensive
 
-SOFA SEARCH | HACK THE NORTH 2017
+fact-check and logistical analysis for multiple drafts
 
-• Recommendation system for sofas and other furniture 
-• Used reinforcement learning on a convolutional neural network in Keras on a
+o Worked with authors and lead editors to manage thematic direction and consistency of final product,
 
-Tensorﬂow backend to identify features from images of furniture
+reworking articles when necessary to ensure logical flow
 
-• Connected front and back end using Flask framework
+o Managed recruiting process for hiring of new researchers, selecting from a wide array of qualified
+
+candidates to determine optimal team composition for future work
+
+AIC Consulting
+
+Toronto, ON
+
+July 2017 – September 2017
+
+o Managed outreach and procured sales leads in foreign markets, increasing presence in emerging
+
+economies to build clientele and brand awareness
+
+o Developed marketing content and advertising campaign for investment seminars to inform foreign
+
+investors and entrepreneurs of the benefits of domestic Canadian business holding, establishing social
+
+media growth of over 40% in two months
+
+ADDITIONAL INFORMATION
+
+o Achievements: Top 10, HackPrinceton 2018; 2nd Place, Airbnb Canada Consulting Competition
+
+o Extracurricular: Researcher, Western Investment Club; Vice-President of Finance, SpitStrips
+
+o Technical: Proficient in Java; Python; UML; XML; SQL; Microsoft Office Suite; Adobe Suite
+
+o Certifications: CISCO FIT Certificate – Software Design & Development Concentration
+
+o Interests: Hockey; piano; creative writing; skiing; traveling

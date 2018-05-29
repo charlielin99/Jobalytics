@@ -9,19 +9,18 @@ var express = require('express'),
     request = require('request'),
     bodyParser = require('body-parser');
 
-var app = express(),
-    pyshell;
+var app = express(), form, link;
+var firstRun = true;
 
-const dataPath = __dirname + "/data/resume.txt";
-var filePath, resumeJson, resumeText, resumeAuthor, jobReqs, matchJson;
+const resumePdfPath = __dirname + "/data/resumePDF.pdf",
+      resumeTxtPath = __dirname + "/data/resume.txt",
+      descrPath = __dirname + "/data/jobDescr.txt";
+var filePath, resumeJson, resumeText, resumeAuthor, descrText, jobReqs, matchJson;
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('public'));
 app.use(helmet());
 app.set("view engine", "ejs");
-
-var data= ""; //initial value
-var x = false; //initial value
 
 ////////////////////////////
 app.get('/', (req, res) => {
@@ -29,63 +28,58 @@ app.get('/', (req, res) => {
 });
 
 app.post('/jobalytics', (req, res) => {
-    var form = new formidable.IncomingForm();
+    form = new formidable.IncomingForm();
     form.parse(req);
-    form.on('fileBegin', async (name, file) => {
-        file.path = __dirname + '/uploads/' + file.name;
+    form.on('fileBegin', (name, file) => {
+        file.path = resumePdfPath;
     });
-    form.on('file', async (name, file) => {
-        pyshell = new PythonShell('src/myResume.py')
-        pyshell.send('uploads/' + file.name);
-        pyshell.on('message', function (message) {
+    form.on('file', (name, file) => {
+        (new PythonShell('src/myResume.py')).on('message', (message) => {
             resumeJson = JSON.parse(message);
             resumeText = resumeJson['text'];
             resumeAuthor = resumeText.split('\n')[1] || resumeText.split('\n')[0] || 'YOU';
-            fs.writeFile(dataPath, resumeText, function(err) {
+            fs.writeFile(resumeTxtPath, resumeText, function(err) {
                 if(err) {
                     return console.log(err);
                 }
-                console.log("Resume parse was successful!");
+                console.log("Hi, " + resumeAuthor); //use case undetermined
             });
         });
-        console.log(resumeAuthor); //use case undetermined
     });
     form.on('end', (name, file) => res.sendFile(__dirname + '/public/main.html'));
 });
 
-app.post('/home', (req, res) => res.sendFile(__dirname + '/public/main.html'));
-
-
-
-
-
-
-
-
-//JOBMATCH PRONG
+app.post('/home', (req, res) => {
+    firstRun = true;
+    res.sendFile(__dirname + '/public/main.html');
+});
 app.post('/jobmatch', (req, res) => {
-
-    if (x === false){ //first run, return empty string
-        x = true;
-        res.render('jobmatch', {returnedmatch: data.text});
-    }
-
-    if (x === true){
-        var link = req.body.joblink;
-        //request(link).pipe(fs.createWriteStream('jobDescr.html'));
-        request(link, function(error,response,body){
-            if (!error && response.statusCode == 200) {
-                data = extractor(body);
-                res.render('jobmatch', {returnedmatch: data.text});
-            }
-        });
+    if (firstRun){ //first run, return empty string
+        firstRun = false;
+        res.render('jobmatch', {returnedmatch: ""});
+    } else {
+        link = req.body.joblink;
+        if (link != ""){
+            request(link, function(error, response, body){
+                if (!error && response.statusCode == 200) {
+                    descrText = extractor(body).text;
+                    fs.writeFile(descrPath, descrText, (err) => {
+                        if (err){
+                            return console.log(err);
+                        }
+                        console.log("Description parse was successful!");
+                    });
+                    PythonShell.run('src/job_matching.py', (err, msg) => {
+                        res.render('jobmatch', {returnedmatch: msg.join("\n")});
+                    });
+                } else {
+                    console.log(error);
+                    console.log("Status code = " + response.statusCode);
+                }
+            });
+        }
     }
 });
-
-
-
-
-
 app.post('/accomplishments', (req, res) => res.sendFile(__dirname + '/public/pros.html'));
 app.post('/radials', (req, res) => res.sendFile(__dirname + '/public/radials.html'));
 app.post('/improveyourself', (req, res) => res.sendFile(__dirname + '/public/cons.html'));
@@ -96,4 +90,3 @@ app.post('/keywords', (req, res) => res.sendFile(__dirname + '/public/frequent.h
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}/`);
 });
-

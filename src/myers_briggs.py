@@ -1,4 +1,4 @@
-from indicoio import *
+import indicoio
 import wolframalpha
 import json
 import urllib
@@ -8,7 +8,7 @@ appid = '2AH23L-WHVXG98WWL'
 client = wolframalpha.Client(appid)
 
 
-config.api_key = '27df1eee04c5b65fb3113e9458d1d701'
+indicoio.config.api_key = '27df1eee04c5b65fb3113e9458d1d701'
 
 
 
@@ -20,7 +20,7 @@ resume = str(open("data/resume.txt","r+"))
 
 def briggs_test(resume):
 	myers_array = []
-	briggs_dict = personas(resume)
+	briggs_dict = indicoio.personas(resume)
 	briggs_dict = {i:briggs_dict[i] for i in briggs_dict if briggs_dict[i] > 0.075}
 	briggs_keys = list(briggs_dict.keys())
 	briggs_values = list(briggs_dict.values())
