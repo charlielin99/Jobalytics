@@ -1,31 +1,25 @@
-In the last 5 years, Prodigy has gone from 3,000 to over 30,000,000 students across North America (including 80% of all Ontario students), and is currently the fastest growing educational startup in North America. By joining our team, you will have the opportunity to help an entire generation of students to LOVE learning while working alongside some of the brightest and most passionate people in education and gaming.
+Did you know that on average recruiters spend JUST 6 seconds looking at your resume?
 
-Passionate QA to join us in our goal of providing even more features and value to our 5 Million monthly active wizards (and growing).
+As university students, we understand the challenge of creating a resume and gaining objective insight on what works and what doesn't BEFORE it's too late. Resumes are often the first time a recruiter is made aware of your interest in the position, so it needs to be perfect. We set out to make a project that runs standalone and gives users the potential to evaluate their resumes from the lens of an objective, learning computer.
 
-Creating and executing test plans that test new feature releases end-to-end
+Jobalytics takes a file input in the form of a PDF (Adobe Acrobat document) from the user in a drag-and-drop UI. Then, the user can perform a variety of analyses on the resume processed. The features currently implemented include Job Match (Paste the job description of the job you want to apply for, and find how well your resume matches what they're looking for!), Radials (We'll tell you your Myers Briggs results from your resume!), Persona (What type of team worker are you? Our analysis on your experiences will show you.), What Works (Find out the most successful elements of your resume!), Improve Yourself (Discover the most glaring flaws in your resume, from length to formatting), and Frequent Words (Reveal the most commonly repeated words in your resume so you can ensure you get your message across properly.)
 
-Maintaining a solid understanding of Prodigy content to better understand how systems and features interact with, and impact, one another.
+The web front-end was built with HTML, CSS and JavaScript/JQuery with some formatting help from Bootstrap.
 
-Investigating and implementing new and improved testing methodology throughout feature development.
+Node.js was the server side language running on a Express. JS server.
 
-Constantly looking for ways to improve Prodigy’s game. We have an environment where good ideas win, and your ideas could help shape our product.
+Wolfram One/Mathematica was used with Indico for the analytical machinel earning and NLP back-end of the program, executed in Python, which was then ported into Node with python shell.
 
-Providing your team with the right information about the quality of the product to make the correct release decisions.
+Trying to coordinate separate development of the front-end (web), analytical back-end (machine learning in Python), file I/O, and node.js server all together.
 
-Performing analysis on whether our new content and systems are fun, engaging and impactful for our students. Your spellbook should have:
+Trying to produce a working link between Wolfram Alpha's frame output and the existing code.
 
-Ability to write clearly and effective test cases.
+Effectively delegating work and determining a process flow both from an analysis perspective and UI perspective.
 
-Extremely organized and methodical in your testing procedures.
+Completing the project very quickly and learning complicated process flows between programming languages.
 
-Ability to think critically, independently and creatively to get the job completed with quality.
+How to move data between 5 different programming languages.
 
-In-depth knowledge and passion for a wide variety of video game titles.
+Continued development and refinement of the existing features of the product.
 
-Innate desire to understand how things work, to dig deeper and continue to learn.
-
-$42k minimum, up to $65k depending on experience
-
-The ability to impact the lives of millions of kids
-
-Experience within the realm of mobile testingWe are an equal opportunity employer and are committed to providing employment accommodation in accordance with the Ontario Human Rights Code and the Accessibility for Ontarians with Disabilities Act, 2005 (AODA). Prodigy Game will provide accommodations to job applicants with disabilities throughout the recruitment process. If you require an accommodation, please notify us and we will work with you to meet your needs.
+Building and making available reference libraries of results for other (anonymized) resumes in our database to understand keys to success and common mistakes.

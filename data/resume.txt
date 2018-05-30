@@ -1,110 +1,56 @@
 
-Nicholas Tommasini
+Brad Guanqiao Huang
 
-(647) 709-7304 | ntommasi@uwo.ca | linkedin.com/in/n-tommasini/
+647-782-9036 | brad.huang@uwaterloo.ca | linkedin.com/in/brad-huang/| github.com/BradHuang1999
 
-EDUCATION
+Qualification and Skills Summary
 
-Western University
+· Honours Computer Science Co-op Student at the University of Waterloo, Class of 2022 
+· Fast learner with extensive knowledge of OOP concepts and agile development methodology 
+· 3 years of Java developing experience through 6+ projects 
+· Full-stack web developer proficient in front-end webpage designs and back-end software implementation 
+· Effective team member with excellent communication skills through 4 years of volunteer experience 
+· PROFICIENT IN: Java (Swing, JavaFX), HTML5, CSS, Lisp/Scheme, Visual Basic (VBA), QBasic 
+· FAMILIAR WITH: C, C++, Python, R, PHP, JavaScript, Node.js, React.js, AngularJS, Haskell, SQL, Linux, Git
 
-London, ON
+Professional Experience
 
-Candidate for Bachelor of Financial Economics
+WEB DEVELOPER | RICHMOND HILL HIGH SCHOOL | HTML5, CSS, PHP, WORDPRESS | 2017 
+· Selected to revamp the homework website for the RHHS math department using HTML5, CSS, and WordPress 
+· In later cycles of development, developed an easy-to-use backend maintenance system for the website using PHP
 
-September 2017 – Present
+to streamline the process of announcements and updates for users 
+· Consulted on the designs of teachers’ own homework websites
 
-o GPA: 3.94/4.00 – 96.0%; Advanced Entry status to Ivey Business School
+SOFTWARE DEVELOPER | TAOTAO GROUP LIMITED | PHP, WORDPRESS, webERP | 2016 
+· Worked in a team to test and implement webERP, a backend management/inventory software 
+· Redesigned and translated the company's website to promote viewer traffic and sales 
+· Built advertising website for the new logistics/transportation department using HTML5, CSS, and WordPress
 
-o Honors: One of 30 National Scholars; scholarship value of $30,000
+Notable Assignments and Projects
 
-o Test Scores: ACT: 35/36; SAT Math II: 800/800; SAT Chemistry: 800/800
+BATTLE TETROMINO | JAVA, PYTHON | 2017 – PRESENT | github.com/Bradhuang1999/Battle-Tetromino 
+· Led a team of four to design a Tetris game with single player, double player, human vs. computer, and online
 
-o Relevant Coursework: Financial Analysis, Accounting, Economics, Computer Science – Python & Java
+modes using Java and Python 
+· Developed an automated game-playing algorithm based on four heuristics of the Tetris gameboard pattern 
+· Currently implementing machine learning using TensorFlow to improve the algorithm
 
-WORK & LEADERSHIP EXPERIENCE
+ChatServ | JAVA | 2017 – PRESENT | github.com/BradHuang1999/ChatServ 
+· Developed a desktop messenger software for users to communicate remotely using Agile development practices 
+· Worked in team of three to design a Graphical User Interface using Swing to improve user experience 
+· Currently working on implementing an RSA message encryption system to prevent data breach
 
-Ivey FinTech Pro-Bono Consulting
+Volunteer Experience 
+TUTOR | LEARNING DISABILITIES ASSOCIATION OF YORK REGION | 2016 – 2017
 
-London, ON
+· Instructed math, writing, and social skills to elementary school students with learning disabilities 
+· Consulted with parents in regard to students’ progress to ensure effective learning experience
 
-Consultant
+PRESENTER AND TOUR GUIDE | DAVID DUNLAP OBSERVATORY | 2014 – 2017 
+· Gave tours of the observatory and presentations on observational astronomy 
+· Showcased leadership and communication skills by training and supervising other volunteers
 
-January 2018 – Present
+Personal Interests
 
-o Led team in creating a business positioning plan for Canadian FinTech start-up requiring further
-
-development and guidance to bring client-facing financial risk-assessment app to market
-
-o Communicated with clients regularly through conference calls to align goals and expectations and
-
-facilitate goodwill, establishing strategy that met philanthropic and financial literacy goals of the
-
-company leadership
-
-o Developed a cohesive pitch deck using analysis of corporate capabilities, value-chain and industry
-
-through PEST, ultimately realizing entry strategy that will be implemented by client
-
-Undaunted Equity Research Group
-
-London, ON
-
-Analyst
-
-January 2018 – Present
-
-o Produced and published equity research reports for Canadian and U.S. equities, including
-
-NYSE:CIEN and NASDAQ:EGRX; CIEN has since realized upside of over 18%
-
-o Used a variety of financial modelling methods, including DCF, DDM and NAV models, to
-
-determine intrinsic value of companies in the technology and healthcare sectors
-
-Ivey Business Review
-
-London, ON
-
-Senior Researcher
-
-September 2017 – Present
-
-o Evaluated proposals and problem analyses for fall and winter publications, performing comprehensive
-
-fact-check and logistical analysis for multiple drafts
-
-o Worked with authors and lead editors to manage thematic direction and consistency of final product,
-
-reworking articles when necessary to ensure logical flow
-
-o Managed recruiting process for hiring of new researchers, selecting from a wide array of qualified
-
-candidates to determine optimal team composition for future work
-
-AIC Consulting
-
-Toronto, ON
-
-July 2017 – September 2017
-
-o Managed outreach and procured sales leads in foreign markets, increasing presence in emerging
-
-economies to build clientele and brand awareness
-
-o Developed marketing content and advertising campaign for investment seminars to inform foreign
-
-investors and entrepreneurs of the benefits of domestic Canadian business holding, establishing social
-
-media growth of over 40% in two months
-
-ADDITIONAL INFORMATION
-
-o Achievements: Top 10, HackPrinceton 2018; 2nd Place, Airbnb Canada Consulting Competition
-
-o Extracurricular: Researcher, Western Investment Club; Vice-President of Finance, SpitStrips
-
-o Technical: Proficient in Java; Python; UML; XML; SQL; Microsoft Office Suite; Adobe Suite
-
-o Certifications: CISCO FIT Certificate – Software Design & Development Concentration
-
-o Interests: Hockey; piano; creative writing; skiing; traveling
+· Astronomical Observing, Music (Piano and Clarinet), Android ROM Flashing, Photography, Kayaking, Skiing
