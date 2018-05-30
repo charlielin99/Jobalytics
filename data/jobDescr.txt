@@ -1,17 +1,31 @@
-Wilcox Bodies Limited , Canada's premiere truck body manufacturer since 1962 is growing again!
+In the last 5 years, Prodigy has gone from 3,000 to over 30,000,000 students across North America (including 80% of all Ontario students), and is currently the fastest growing educational startup in North America. By joining our team, you will have the opportunity to help an entire generation of students to LOVE learning while working alongside some of the brightest and most passionate people in education and gaming.
 
-A recipient of Milton's large business of the year award in 2016, Wilcox is looking for energetic, hardworking individuals to join our Work Truck Up-fitting/Assembly team. Full time day and/or afternoon shifts are available for experienced assemblers in our truck body division.
+Passionate QA to join us in our goal of providing even more features and value to our 5 Million monthly active wizards (and growing).
 
-Read blueprints and drawings and take or read measurements to plan layout and proceduresDetermine the appropriate tooling based on job requirementsMaintain equipment in a condition that does not compromise safety
+Creating and executing test plans that test new feature releases end-to-end
 
-Experience in using electrical or manual tools (drills, tape measure, screw drivers sockets)Ability to read and interpret technical documents and drawingsKnowledge of relative safety standards and willingness to use protective clothing (face-shield, gloves etc.)Certificate or courses in Automotive Technician/Mechanic a plus
+Maintaining a solid understanding of Prodigy content to better understand how systems and features interact with, and impact, one another.
 
-Only candidates whom have been chosen for interview will be contacted. We look forward to having you as part of our rapidly growing team.
+Investigating and implementing new and improved testing methodology throughout feature development.
 
-For more information on our company please visit our website at www.wilcoxbodies.com and www.wilcoxgroundservices.com
+Constantly looking for ways to improve Prodigy’s game. We have an environment where good ideas win, and your ideas could help shape our product.
 
-Please review all application instructions before applying to Wilcox Bodies Limited.
+Providing your team with the right information about the quality of the product to make the correct release decisions.
 
-This employer accepts applications via Indeed.
+Performing analysis on whether our new content and systems are fun, engaging and impactful for our students. Your spellbook should have:
 
-Other jobs you may like
+Ability to write clearly and effective test cases.
+
+Extremely organized and methodical in your testing procedures.
+
+Ability to think critically, independently and creatively to get the job completed with quality.
+
+In-depth knowledge and passion for a wide variety of video game titles.
+
+Innate desire to understand how things work, to dig deeper and continue to learn.
+
+$42k minimum, up to $65k depending on experience
+
+The ability to impact the lives of millions of kids
+
+Experience within the realm of mobile testingWe are an equal opportunity employer and are committed to providing employment accommodation in accordance with the Ontario Human Rights Code and the Accessibility for Ontarians with Disabilities Act, 2005 (AODA). Prodigy Game will provide accommodations to job applicants with disabilities throughout the recruitment process. If you require an accommodation, please notify us and we will work with you to meet your needs.
