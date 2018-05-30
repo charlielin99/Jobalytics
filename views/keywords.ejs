@@ -3,10 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Your Job Match | Jobalytics&trade;</title>
+    <title>Frequently Used Words | Jobalytics&trade;</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <script src="js/jobmatch.js"></script>
     <style>
         .fade-in-down {
             animation: fade-in-down 2s ease infinite;
@@ -116,31 +115,22 @@
 <body>
     <div id="logo" class="text-center">
         <img src="img/Untitled.png" style="display:block; margin-top: 30px; margin-left:auto; margin-right:auto">
-        <h1 class="fade-in-down">Enter your job description here.</h1>
+        <h1 class="fade-in-down">Here are your results.</h1>
     </div>
     <div class="container-fluid">
         <div class="row">
             <div id="leftcolumn" class="col-md-4">
                 <div class="card hvr-float" style="width: 100%;   border: 2px solid #FBB959;
   border-radius:4px;">
-                    <img class="card-img-top" src="img/interview2.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/word cloud.png" alt="Card image cap">
                     <div class="card-body">
                         <h4 class="card-title">Why is this important?</h4>
-                        <p class="card-text">You should modify your resume appropriately for each role you apply to. Make sure you list specific, relevant experiences and change your skills or projects accordingly.</p>
+                        <p class="card-text">It's important to drive home your greatest strengths and most relevant experiences, but it's equally important to ensure that you aren't repeating yourself or beating the recruiter over the head with the same info. Make wise decisions with this info.</p>
                     </div>
                 </div>
             </div>
             <div id="midcolumn" class="col-md-4 fade-in-down">
-                <textarea rows="5" id="inputsection"></textarea>
-                <button onclick="myFunction();" id="check">Check my potential match.</button>
-                <textarea readonly id="results" rows="10">
-                </textarea>
-                <script>
-                    function myFunction() {
-                        document.getElementById("results").value =
-                            "You match with the company cultures at: 79%. You match with their desired experience at: 98%. You match many necessary keywords at: 42%. (See your specific PROs and CONs for more detail. Best of luck!";
-                    }
-                </script>
+                <textarea readonly id="results" rows="20"><%= keywords %></textarea>
                 <form action='/home' method="POST">
                     <button id="return">Return</button>
                 </form>
@@ -148,10 +138,10 @@
             <div id="rightcolumn" class="col-md-4">
                 <div class="card hvr-float" style="width: 100%;   border: 2px solid #FBB959;
   border-radius:4px;">
-                    <img class="card-img-top" src="img/hired.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/dictionary.jpeg" alt="Card image cap">
                     <div class="card-body">
                         <h4 class="card-title">How does it work?</h4>
-                        <p class="card-text">Our algorithms use Indico-supported functions to determine your fit with the provided job description of your choice. Through Wolfram One, we prepare your results visually.</p>
+                        <p class="card-text">Our algorithm creates a dictionary that totals up the instances of each word in your resume, then eliminates words of little interest to present to you only the most important repeated word instances in your document.</p>
                     </div>
                 </div>
             </div>

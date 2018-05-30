@@ -15,7 +15,7 @@ var firstRun = true;
 const resumePdfPath = __dirname + "/data/resumePDF.pdf",
       resumeTxtPath = __dirname + "/data/resume.txt",
       descrPath = __dirname + "/data/jobDescr.txt";
-var filePath, resumeJson, resumeText, resumeAuthor, descrText, jobReqs, matchJson;
+var filePath, resumeJson, resumeText, resumeAuthor, descrText, jobReqs, matchJson, txt;
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('public'));
@@ -24,7 +24,7 @@ app.set("view engine", "ejs");
 
 ////////////////////////////
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/public/index.html');
+    res.render('index');
 });
 
 app.post('/jobalytics', (req, res) => {
@@ -46,12 +46,12 @@ app.post('/jobalytics', (req, res) => {
             });
         });
     });
-    form.on('end', (name, file) => res.sendFile(__dirname + '/public/main.html'));
+    form.on('end', (name, file) => res.render('main'));
 });
 
 app.post('/home', (req, res) => {
     firstRun = true;
-    res.sendFile(__dirname + '/public/main.html');
+    res.render('main');
 });
 app.post('/jobmatch', (req, res) => {
     if (firstRun){ //first run, return empty string
@@ -80,11 +80,21 @@ app.post('/jobmatch', (req, res) => {
         }
     }
 });
-app.post('/accomplishments', (req, res) => res.sendFile(__dirname + '/public/pros.html'));
-app.post('/radials', (req, res) => res.sendFile(__dirname + '/public/radials.html'));
-app.post('/improveyourself', (req, res) => res.sendFile(__dirname + '/public/cons.html'));
-app.post('/personas', (req, res) => res.sendFile(__dirname + '/public/personas.html'));
-app.post('/keywords', (req, res) => res.sendFile(__dirname + '/public/frequent.html'));
+app.post('/accomplishments', (req, res) => {
+    res.render('pros', {prosText: "some pros"});
+});
+app.post('/improveyourself', (req, res) => {
+    res.render('cons', {consText: "some cons"});
+});
+app.post('/radials', (req, res) => {
+    res.render('radials', {radials: "some radials"});
+});
+app.post('/personas', (req, res) => {
+    res.render('personas', {personaText: "some personas"});
+});
+app.post('/keywords', (req, res) => {
+    res.render('keywords', {keywords: "some keywords"});
+});
 
 ////////////////////////////
 app.listen(port, () => {
