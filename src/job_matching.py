@@ -15,13 +15,16 @@ The flow is:
 7. returns a list of dictionaries where the 1st element is good points for the resume and 2nd element is room for improvement
 '''
 
-fileDir = os.path.dirname(os.path.realpath('__file__'))
+fileDir = os.path.dirname(os.path.dirname(os.path.realpath('__file__')))
 resume = codecs.open(os.path.join(fileDir, "data/resume.txt"), encoding='utf8').read()
 job_desc = open(os.path.join(fileDir, "data/jobDescr.txt"), encoding='utf8').read()
+word_sieve = ['engineering', 'software', 'work', 'professional', 'glassdoor', 'monster', 'passionate', 'online', 'experience', 
+'experienced', 'proficient', 'innovating', 'innovation', 'glass', 'door', 'using', 'skills', 'strong', 'technology', 
+'technologies', 'recruiter', 'resume']
 
 def analyzer(job_desc):
 	shordy = indicoio.keywords(job_desc, threshold = 0.15)
-	return [ a for a in shordy.keys() ]
+	return [ a for a in shordy.keys() if a.lower() not in word_sieve]
 
 def summarizer(resume):
 	return indicoio.summarization(resume) 
@@ -39,6 +42,7 @@ def direct_matcher(resume):
 	return direct_dictionary
 
 def skills_matcher(job_desc, resume):
+	print(fileDir)
 	list_of_keywords = analyzer(job_desc)
 	probabilities = job_matcher(job_desc, resume)
 	probabilities = probabilities[0]
