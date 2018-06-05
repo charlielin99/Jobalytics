@@ -4,7 +4,7 @@
   "description": "EngHack18' Project to get you hired",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
     "formidable": "^1.2.1",
     "fs": "0.0.1-security",
     "helmet": "^3.12.1",
+    "nodemon": "^1.17.5",
     "python-shell": "^0.5.0",
     "request": "^2.87.0",
     "require": "^2.4.20",
