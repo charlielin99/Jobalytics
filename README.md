@@ -6,7 +6,7 @@
 
 This project won the award for "Best Use of Machine Learning" as awarded by [Indico](https://indico.io/), as well as the "Wolfram Challenge" as awarded by [Wolfram Research](http://www.wolfram.com/).
 
-### Key Features
+## Key Features
 <!--- Add GIF of Feature Screen  -->
 1. **Job Match**
    - Adjusted Word2Vec model to classify based off keywords w/ a sieve to catch blacklisted words
@@ -17,13 +17,13 @@ This project won the award for "Best Use of Machine Learning" as awarded by [Ind
 4. **Personality Radials Classification**
    - Regularized algorithm to correct for variance
 
-### Web Architecture
-<img src="https://github.com/charlielin99/Jobalytics/blob/master/screenshots/Analysis.pngraw=true" height="280px"></img></br>
+## Web Architecture
+<img src="https://github.com/charlielin99/Jobalytics/blob/master/screenshots/Analysis.png?raw=true" height="280px"></img></br>
 <sup>_f2: Personality radials identifying a high confidence for logician and architect types; displayed with Wolfram One_</sup>
 
 Server runs on the Express framework in Node.JS with ML algorithms called upon through [python-shell](https://www.npmjs.com/package/python-shell). The 6 pronged analysis is visualized using Wolfram One's cloud computation platform for a friendly user experience. The front end design was inspired by the interactivity of Google's Cardview template. 
 
-### Potential Future Additions
+## Potential Future Additions
 - Sentiment analysis to better align with company culture
 - Facial recognition to identify emotion in interviews
 - MongoDB to allow for multiple resumes/account
