@@ -15,7 +15,7 @@ This project won the award for "Best Use of Machine Learning" as awarded by [Ind
 3. Frequent Words
    - Built a **tf-idf model** to perform k means clustering 
 4. Personality Radials Classification
-   - Regularized algorithm to correct for variance
+   - **Regularized algorithm** to correct for high variance/overfitting
 
 ## Web Architecture
 <img src="https://github.com/charlielin99/Jobalytics/blob/master/screenshots/Analysis.png?raw=true" height="335px"></img></br>
