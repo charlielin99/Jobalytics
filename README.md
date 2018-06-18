@@ -1,6 +1,6 @@
 # Jobalytics: _Using Machine Learning to Perfect Your Resume_
 
-> Your resume has six seconds to grab a recruiter's attention. Make it count.
+> Your resume has six seconds to grab the recruiter's attention. Make it count.
 
 [UWaterloo ENGHACK18](http://enghack.uwaterloo.ca/) project developed initially in 24 hours, using pre-trained NLP algorithms/APIs to perform transfer learning in Jupyter Notebook to build a tailored resume screening web application. 
 
