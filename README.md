@@ -8,6 +8,7 @@ This project won the award for "Best Use of Machine Learning" as awarded by [Ind
 
 ## Key Features
 <img src="https://github.com/charlielin99/Jobalytics/blob/master/screenshots/Home.gif?raw=true" height="200px"></br>
+<sup>_f1: Interactive features menu UI inspired by Google Cardview_</sup>
 
 1. Job Match
    - Adjusted **Word2Vec model** to classify based off keywords w/ a sieve to catch blacklisted words
