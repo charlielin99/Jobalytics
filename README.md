@@ -7,7 +7,8 @@
 This project won the award for "Best Use of Machine Learning" as awarded by [Indico](https://indico.io/), as well as the "Wolfram Challenge" as awarded by [Wolfram Research](http://www.wolfram.com/).
 
 ## Key Features
-<!--- Add GIF of Feature Screen  -->
+<img src="https://github.com/charlielin99/Jobalytics/blob/master/screenshots/home.gif?raw=true" height="200px"></br>
+
 1. Job Match
    - Adjusted **Word2Vec model** to classify based off keywords w/ a sieve to catch blacklisted words
 2. What Works & What Doesn't
